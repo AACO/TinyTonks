@@ -1,0 +1,5340 @@
+version=53;
+class EditorData
+{
+	moveGridStep=1;
+	angleGridStep=0.2617994;
+	scaleGridStep=1;
+	autoGroupingDist=10;
+	toggles=513;
+	class ItemIDProvider
+	{
+		nextID=323;
+	};
+	class MarkerIDProvider
+	{
+		nextID=5;
+	};
+	class Camera
+	{
+		pos[]={21369.414,158.46416,16258.299};
+		dir[]={-0.45621878,-0.42547402,0.78156519};
+		up[]={-0.21449295,0.90496737,0.36745501};
+		aside[]={0.86363494,9.3481503e-008,0.5041247};
+	};
+};
+binarizationWanted=0;
+addons[]=
+{
+	"A3_Ui_F",
+	"A3_Characters_F"
+};
+class AddonsMetaData
+{
+	class List
+	{
+		items=2;
+		class Item0
+		{
+			className="A3_Ui_F";
+			name="Arma 3 - User Interface";
+			author="Bohemia Interactive";
+			url="https://www.arma3.com";
+		};
+		class Item1
+		{
+			className="A3_Characters_F";
+			name="Arma 3 Alpha - Characters and Clothing";
+			author="Bohemia Interactive";
+			url="https://www.arma3.com";
+		};
+	};
+};
+randomSeed=10772049;
+class ScenarioData
+{
+	author="AACO";
+	disabledAI=1;
+	respawn=1;
+	class Header
+	{
+		gameType="LastMan";
+		minPlayers=2;
+		maxPlayers=60;
+	};
+};
+class CustomAttributes
+{
+	class Category0
+	{
+		name="Multiplayer";
+		class Attribute0
+		{
+			property="RespawnTemplates";
+			expression="true";
+			class Value
+			{
+				class data
+				{
+					class type
+					{
+						type[]=
+						{
+							"ARRAY"
+						};
+					};
+					class value
+					{
+						items=1;
+						class Item0
+						{
+							class data
+							{
+								class type
+								{
+									type[]=
+									{
+										"STRING"
+									};
+								};
+								value="potato_spectate";
+							};
+						};
+					};
+				};
+			};
+		};
+		nAttributes=1;
+	};
+	class Category1
+	{
+		name="Scenario";
+		class Attribute0
+		{
+			property="cba_settings_hash";
+			expression="false";
+			class Value
+			{
+				class data
+				{
+					class type
+					{
+						type[]=
+						{
+							"ARRAY"
+						};
+					};
+					class value
+					{
+						items=4;
+						class Item0
+						{
+							class data
+							{
+								class type
+								{
+									type[]=
+									{
+										"STRING"
+									};
+								};
+								value="#CBA_HASH#";
+							};
+						};
+						class Item1
+						{
+							class data
+							{
+								class type
+								{
+									type[]=
+									{
+										"ARRAY"
+									};
+								};
+								class value
+								{
+									items=23;
+									class Item0
+									{
+										class data
+										{
+											class type
+											{
+												type[]=
+												{
+													"STRING"
+												};
+											};
+											value="ace_frag_enabled";
+										};
+									};
+									class Item1
+									{
+										class data
+										{
+											class type
+											{
+												type[]=
+												{
+													"STRING"
+												};
+											};
+											value="ace_nametags_playernamesviewdistance";
+										};
+									};
+									class Item2
+									{
+										class data
+										{
+											class type
+											{
+												type[]=
+												{
+													"STRING"
+												};
+											};
+											value="sthud_settings_hudmode";
+										};
+									};
+									class Item3
+									{
+										class data
+										{
+											class type
+											{
+												type[]=
+												{
+													"STRING"
+												};
+											};
+											value="sthud_settings_occlusion";
+										};
+									};
+									class Item4
+									{
+										class data
+										{
+											class type
+											{
+												type[]=
+												{
+													"STRING"
+												};
+											};
+											value="sthud_settings_removedeadviaproximity";
+										};
+									};
+									class Item5
+									{
+										class data
+										{
+											class type
+											{
+												type[]=
+												{
+													"STRING"
+												};
+											};
+											value="potato_missionmodules_aiskill_set";
+										};
+									};
+									class Item6
+									{
+										class data
+										{
+											class type
+											{
+												type[]=
+												{
+													"STRING"
+												};
+											};
+											value="potato_missionmodules_aiskill_aimingaccuracy_min";
+										};
+									};
+									class Item7
+									{
+										class data
+										{
+											class type
+											{
+												type[]=
+												{
+													"STRING"
+												};
+											};
+											value="potato_missionmodules_aiskill_aimingaccuracy_max";
+										};
+									};
+									class Item8
+									{
+										class data
+										{
+											class type
+											{
+												type[]=
+												{
+													"STRING"
+												};
+											};
+											value="potato_missionmodules_aiskill_aimingshake_min";
+										};
+									};
+									class Item9
+									{
+										class data
+										{
+											class type
+											{
+												type[]=
+												{
+													"STRING"
+												};
+											};
+											value="potato_missionmodules_aiskill_aimingshake_max";
+										};
+									};
+									class Item10
+									{
+										class data
+										{
+											class type
+											{
+												type[]=
+												{
+													"STRING"
+												};
+											};
+											value="potato_missionmodules_aiskill_aimingspeed_min";
+										};
+									};
+									class Item11
+									{
+										class data
+										{
+											class type
+											{
+												type[]=
+												{
+													"STRING"
+												};
+											};
+											value="potato_missionmodules_aiskill_aimingspeed_max";
+										};
+									};
+									class Item12
+									{
+										class data
+										{
+											class type
+											{
+												type[]=
+												{
+													"STRING"
+												};
+											};
+											value="potato_missionmodules_aiskill_commanding_min";
+										};
+									};
+									class Item13
+									{
+										class data
+										{
+											class type
+											{
+												type[]=
+												{
+													"STRING"
+												};
+											};
+											value="potato_missionmodules_aiskill_courage_min";
+										};
+									};
+									class Item14
+									{
+										class data
+										{
+											class type
+											{
+												type[]=
+												{
+													"STRING"
+												};
+											};
+											value="potato_missionmodules_aiskill_reloadspeed_min";
+										};
+									};
+									class Item15
+									{
+										class data
+										{
+											class type
+											{
+												type[]=
+												{
+													"STRING"
+												};
+											};
+											value="potato_missionmodules_aiskill_reloadspeed_max";
+										};
+									};
+									class Item16
+									{
+										class data
+										{
+											class type
+											{
+												type[]=
+												{
+													"STRING"
+												};
+											};
+											value="potato_missionmodules_aiskill_spotdistance_min";
+										};
+									};
+									class Item17
+									{
+										class data
+										{
+											class type
+											{
+												type[]=
+												{
+													"STRING"
+												};
+											};
+											value="potato_missionmodules_aiskill_spotdistance_max";
+										};
+									};
+									class Item18
+									{
+										class data
+										{
+											class type
+											{
+												type[]=
+												{
+													"STRING"
+												};
+											};
+											value="potato_missionmodules_aiskill_spottime_min";
+										};
+									};
+									class Item19
+									{
+										class data
+										{
+											class type
+											{
+												type[]=
+												{
+													"STRING"
+												};
+											};
+											value="potato_missionmodules_aiskill_spottime_max";
+										};
+									};
+									class Item20
+									{
+										class data
+										{
+											class type
+											{
+												type[]=
+												{
+													"STRING"
+												};
+											};
+											value="potato_missionmodules_aiskill_autocombat";
+										};
+									};
+									class Item21
+									{
+										class data
+										{
+											class type
+											{
+												type[]=
+												{
+													"STRING"
+												};
+											};
+											value="potato_missionmodules_aiskill_cover";
+										};
+									};
+									class Item22
+									{
+										class data
+										{
+											class type
+											{
+												type[]=
+												{
+													"STRING"
+												};
+											};
+											value="potato_missionmodules_aiskill_suppression";
+										};
+									};
+								};
+							};
+						};
+						class Item2
+						{
+							class data
+							{
+								class type
+								{
+									type[]=
+									{
+										"ARRAY"
+									};
+								};
+								class value
+								{
+									items=23;
+									class Item0
+									{
+										class data
+										{
+											class type
+											{
+												type[]=
+												{
+													"ARRAY"
+												};
+											};
+											class value
+											{
+												items=2;
+												class Item0
+												{
+													class data
+													{
+														class type
+														{
+															type[]=
+															{
+																"BOOL"
+															};
+														};
+														value=0;
+													};
+												};
+												class Item1
+												{
+													class data
+													{
+														class type
+														{
+															type[]=
+															{
+																"SCALAR"
+															};
+														};
+														value=1;
+													};
+												};
+											};
+										};
+									};
+									class Item1
+									{
+										class data
+										{
+											class type
+											{
+												type[]=
+												{
+													"ARRAY"
+												};
+											};
+											class value
+											{
+												items=2;
+												class Item0
+												{
+													class data
+													{
+														class type
+														{
+															type[]=
+															{
+																"SCALAR"
+															};
+														};
+														value=50;
+													};
+												};
+												class Item1
+												{
+													class data
+													{
+														class type
+														{
+															type[]=
+															{
+																"SCALAR"
+															};
+														};
+														value=1;
+													};
+												};
+											};
+										};
+									};
+									class Item2
+									{
+										class data
+										{
+											class type
+											{
+												type[]=
+												{
+													"ARRAY"
+												};
+											};
+											class value
+											{
+												items=2;
+												class Item0
+												{
+													class data
+													{
+														class type
+														{
+															type[]=
+															{
+																"SCALAR"
+															};
+														};
+														value=0;
+													};
+												};
+												class Item1
+												{
+													class data
+													{
+														class type
+														{
+															type[]=
+															{
+																"SCALAR"
+															};
+														};
+														value=1;
+													};
+												};
+											};
+										};
+									};
+									class Item3
+									{
+										class data
+										{
+											class type
+											{
+												type[]=
+												{
+													"ARRAY"
+												};
+											};
+											class value
+											{
+												items=2;
+												class Item0
+												{
+													class data
+													{
+														class type
+														{
+															type[]=
+															{
+																"BOOL"
+															};
+														};
+														value=0;
+													};
+												};
+												class Item1
+												{
+													class data
+													{
+														class type
+														{
+															type[]=
+															{
+																"SCALAR"
+															};
+														};
+														value=1;
+													};
+												};
+											};
+										};
+									};
+									class Item4
+									{
+										class data
+										{
+											class type
+											{
+												type[]=
+												{
+													"ARRAY"
+												};
+											};
+											class value
+											{
+												items=2;
+												class Item0
+												{
+													class data
+													{
+														class type
+														{
+															type[]=
+															{
+																"BOOL"
+															};
+														};
+														value=0;
+													};
+												};
+												class Item1
+												{
+													class data
+													{
+														class type
+														{
+															type[]=
+															{
+																"SCALAR"
+															};
+														};
+														value=1;
+													};
+												};
+											};
+										};
+									};
+									class Item5
+									{
+										class data
+										{
+											class type
+											{
+												type[]=
+												{
+													"ARRAY"
+												};
+											};
+											class value
+											{
+												items=2;
+												class Item0
+												{
+													class data
+													{
+														class type
+														{
+															type[]=
+															{
+																"BOOL"
+															};
+														};
+														value=1;
+													};
+												};
+												class Item1
+												{
+													class data
+													{
+														class type
+														{
+															type[]=
+															{
+																"SCALAR"
+															};
+														};
+														value=1;
+													};
+												};
+											};
+										};
+									};
+									class Item6
+									{
+										class data
+										{
+											class type
+											{
+												type[]=
+												{
+													"ARRAY"
+												};
+											};
+											class value
+											{
+												items=2;
+												class Item0
+												{
+													class data
+													{
+														class type
+														{
+															type[]=
+															{
+																"SCALAR"
+															};
+														};
+														value=1;
+													};
+												};
+												class Item1
+												{
+													class data
+													{
+														class type
+														{
+															type[]=
+															{
+																"SCALAR"
+															};
+														};
+														value=1;
+													};
+												};
+											};
+										};
+									};
+									class Item7
+									{
+										class data
+										{
+											class type
+											{
+												type[]=
+												{
+													"ARRAY"
+												};
+											};
+											class value
+											{
+												items=2;
+												class Item0
+												{
+													class data
+													{
+														class type
+														{
+															type[]=
+															{
+																"SCALAR"
+															};
+														};
+														value=1;
+													};
+												};
+												class Item1
+												{
+													class data
+													{
+														class type
+														{
+															type[]=
+															{
+																"SCALAR"
+															};
+														};
+														value=1;
+													};
+												};
+											};
+										};
+									};
+									class Item8
+									{
+										class data
+										{
+											class type
+											{
+												type[]=
+												{
+													"ARRAY"
+												};
+											};
+											class value
+											{
+												items=2;
+												class Item0
+												{
+													class data
+													{
+														class type
+														{
+															type[]=
+															{
+																"SCALAR"
+															};
+														};
+														value=1;
+													};
+												};
+												class Item1
+												{
+													class data
+													{
+														class type
+														{
+															type[]=
+															{
+																"SCALAR"
+															};
+														};
+														value=1;
+													};
+												};
+											};
+										};
+									};
+									class Item9
+									{
+										class data
+										{
+											class type
+											{
+												type[]=
+												{
+													"ARRAY"
+												};
+											};
+											class value
+											{
+												items=2;
+												class Item0
+												{
+													class data
+													{
+														class type
+														{
+															type[]=
+															{
+																"SCALAR"
+															};
+														};
+														value=1;
+													};
+												};
+												class Item1
+												{
+													class data
+													{
+														class type
+														{
+															type[]=
+															{
+																"SCALAR"
+															};
+														};
+														value=1;
+													};
+												};
+											};
+										};
+									};
+									class Item10
+									{
+										class data
+										{
+											class type
+											{
+												type[]=
+												{
+													"ARRAY"
+												};
+											};
+											class value
+											{
+												items=2;
+												class Item0
+												{
+													class data
+													{
+														class type
+														{
+															type[]=
+															{
+																"SCALAR"
+															};
+														};
+														value=1;
+													};
+												};
+												class Item1
+												{
+													class data
+													{
+														class type
+														{
+															type[]=
+															{
+																"SCALAR"
+															};
+														};
+														value=1;
+													};
+												};
+											};
+										};
+									};
+									class Item11
+									{
+										class data
+										{
+											class type
+											{
+												type[]=
+												{
+													"ARRAY"
+												};
+											};
+											class value
+											{
+												items=2;
+												class Item0
+												{
+													class data
+													{
+														class type
+														{
+															type[]=
+															{
+																"SCALAR"
+															};
+														};
+														value=1;
+													};
+												};
+												class Item1
+												{
+													class data
+													{
+														class type
+														{
+															type[]=
+															{
+																"SCALAR"
+															};
+														};
+														value=1;
+													};
+												};
+											};
+										};
+									};
+									class Item12
+									{
+										class data
+										{
+											class type
+											{
+												type[]=
+												{
+													"ARRAY"
+												};
+											};
+											class value
+											{
+												items=2;
+												class Item0
+												{
+													class data
+													{
+														class type
+														{
+															type[]=
+															{
+																"SCALAR"
+															};
+														};
+														value=1;
+													};
+												};
+												class Item1
+												{
+													class data
+													{
+														class type
+														{
+															type[]=
+															{
+																"SCALAR"
+															};
+														};
+														value=1;
+													};
+												};
+											};
+										};
+									};
+									class Item13
+									{
+										class data
+										{
+											class type
+											{
+												type[]=
+												{
+													"ARRAY"
+												};
+											};
+											class value
+											{
+												items=2;
+												class Item0
+												{
+													class data
+													{
+														class type
+														{
+															type[]=
+															{
+																"SCALAR"
+															};
+														};
+														value=1;
+													};
+												};
+												class Item1
+												{
+													class data
+													{
+														class type
+														{
+															type[]=
+															{
+																"SCALAR"
+															};
+														};
+														value=1;
+													};
+												};
+											};
+										};
+									};
+									class Item14
+									{
+										class data
+										{
+											class type
+											{
+												type[]=
+												{
+													"ARRAY"
+												};
+											};
+											class value
+											{
+												items=2;
+												class Item0
+												{
+													class data
+													{
+														class type
+														{
+															type[]=
+															{
+																"SCALAR"
+															};
+														};
+														value=1;
+													};
+												};
+												class Item1
+												{
+													class data
+													{
+														class type
+														{
+															type[]=
+															{
+																"SCALAR"
+															};
+														};
+														value=1;
+													};
+												};
+											};
+										};
+									};
+									class Item15
+									{
+										class data
+										{
+											class type
+											{
+												type[]=
+												{
+													"ARRAY"
+												};
+											};
+											class value
+											{
+												items=2;
+												class Item0
+												{
+													class data
+													{
+														class type
+														{
+															type[]=
+															{
+																"SCALAR"
+															};
+														};
+														value=1;
+													};
+												};
+												class Item1
+												{
+													class data
+													{
+														class type
+														{
+															type[]=
+															{
+																"SCALAR"
+															};
+														};
+														value=1;
+													};
+												};
+											};
+										};
+									};
+									class Item16
+									{
+										class data
+										{
+											class type
+											{
+												type[]=
+												{
+													"ARRAY"
+												};
+											};
+											class value
+											{
+												items=2;
+												class Item0
+												{
+													class data
+													{
+														class type
+														{
+															type[]=
+															{
+																"SCALAR"
+															};
+														};
+														value=1;
+													};
+												};
+												class Item1
+												{
+													class data
+													{
+														class type
+														{
+															type[]=
+															{
+																"SCALAR"
+															};
+														};
+														value=1;
+													};
+												};
+											};
+										};
+									};
+									class Item17
+									{
+										class data
+										{
+											class type
+											{
+												type[]=
+												{
+													"ARRAY"
+												};
+											};
+											class value
+											{
+												items=2;
+												class Item0
+												{
+													class data
+													{
+														class type
+														{
+															type[]=
+															{
+																"SCALAR"
+															};
+														};
+														value=1;
+													};
+												};
+												class Item1
+												{
+													class data
+													{
+														class type
+														{
+															type[]=
+															{
+																"SCALAR"
+															};
+														};
+														value=1;
+													};
+												};
+											};
+										};
+									};
+									class Item18
+									{
+										class data
+										{
+											class type
+											{
+												type[]=
+												{
+													"ARRAY"
+												};
+											};
+											class value
+											{
+												items=2;
+												class Item0
+												{
+													class data
+													{
+														class type
+														{
+															type[]=
+															{
+																"SCALAR"
+															};
+														};
+														value=1;
+													};
+												};
+												class Item1
+												{
+													class data
+													{
+														class type
+														{
+															type[]=
+															{
+																"SCALAR"
+															};
+														};
+														value=1;
+													};
+												};
+											};
+										};
+									};
+									class Item19
+									{
+										class data
+										{
+											class type
+											{
+												type[]=
+												{
+													"ARRAY"
+												};
+											};
+											class value
+											{
+												items=2;
+												class Item0
+												{
+													class data
+													{
+														class type
+														{
+															type[]=
+															{
+																"SCALAR"
+															};
+														};
+														value=1;
+													};
+												};
+												class Item1
+												{
+													class data
+													{
+														class type
+														{
+															type[]=
+															{
+																"SCALAR"
+															};
+														};
+														value=1;
+													};
+												};
+											};
+										};
+									};
+									class Item20
+									{
+										class data
+										{
+											class type
+											{
+												type[]=
+												{
+													"ARRAY"
+												};
+											};
+											class value
+											{
+												items=2;
+												class Item0
+												{
+													class data
+													{
+														class type
+														{
+															type[]=
+															{
+																"BOOL"
+															};
+														};
+														value=0;
+													};
+												};
+												class Item1
+												{
+													class data
+													{
+														class type
+														{
+															type[]=
+															{
+																"SCALAR"
+															};
+														};
+														value=1;
+													};
+												};
+											};
+										};
+									};
+									class Item21
+									{
+										class data
+										{
+											class type
+											{
+												type[]=
+												{
+													"ARRAY"
+												};
+											};
+											class value
+											{
+												items=2;
+												class Item0
+												{
+													class data
+													{
+														class type
+														{
+															type[]=
+															{
+																"BOOL"
+															};
+														};
+														value=0;
+													};
+												};
+												class Item1
+												{
+													class data
+													{
+														class type
+														{
+															type[]=
+															{
+																"SCALAR"
+															};
+														};
+														value=1;
+													};
+												};
+											};
+										};
+									};
+									class Item22
+									{
+										class data
+										{
+											class type
+											{
+												type[]=
+												{
+													"ARRAY"
+												};
+											};
+											class value
+											{
+												items=2;
+												class Item0
+												{
+													class data
+													{
+														class type
+														{
+															type[]=
+															{
+																"BOOL"
+															};
+														};
+														value=0;
+													};
+												};
+												class Item1
+												{
+													class data
+													{
+														class type
+														{
+															type[]=
+															{
+																"SCALAR"
+															};
+														};
+														value=1;
+													};
+												};
+											};
+										};
+									};
+								};
+							};
+						};
+						class Item3
+						{
+							class data
+							{
+								nil=1;
+								class type
+								{
+									type[]=
+									{
+										"ANY"
+									};
+								};
+							};
+						};
+					};
+				};
+			};
+		};
+		nAttributes=1;
+	};
+};
+class Mission
+{
+	class Intel
+	{
+		resistanceWest=0;
+		timeOfChanges=1800.0002;
+		startWeather=0.30000001;
+		startWind=0.1;
+		startWaves=0.1;
+		forecastWeather=0.30000001;
+		forecastWind=0.1;
+		forecastWaves=0.1;
+		forecastLightnings=0.1;
+		wavesForced=1;
+		windForced=1;
+		year=2035;
+		month=6;
+		day=24;
+		hour=12;
+		minute=0;
+		startFogDecay=0.014;
+		forecastFogDecay=0.014;
+	};
+	class Entities
+	{
+		items=251;
+		class Item0
+		{
+			dataType="Marker";
+			position[]={3687.0049,11.695,13244.732};
+			name="kavala";
+			type="Empty";
+			id=4;
+			atlOffset=0.00022506714;
+		};
+		class Item1
+		{
+			dataType="Marker";
+			position[]={3721.1689,19.865,12789.269};
+			name="kavala_spawn_0";
+			type="Empty";
+			angle=219.41376;
+			id=7;
+			atlOffset=0.00032234192;
+		};
+		class Item2
+		{
+			dataType="Marker";
+			position[]={3753.6616,16.438641,13791.438};
+			name="kavala_spawn_1";
+			type="Empty";
+			angle=47.267452;
+			id=8;
+			atlOffset=-0.00012016296;
+		};
+		class Item3
+		{
+			dataType="Group";
+			side="Independent";
+			class Entities
+			{
+				items=1;
+				class Item0
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={23130,3.1914389,18975.051};
+					};
+					side="Independent";
+					flags=7;
+					class Attributes
+					{
+						name="ttc_1";
+						description="Tiny Tonk 1 Commander@Tiny Tonk 1";
+						isPlayer=1;
+					};
+					id=10;
+					type="I_crew_F";
+				};
+			};
+			class Attributes
+			{
+			};
+			id=9;
+		};
+		class Item4
+		{
+			dataType="Group";
+			side="Independent";
+			class Entities
+			{
+				items=1;
+				class Item0
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={23135,3.1914389,18975.051};
+					};
+					side="Independent";
+					flags=7;
+					class Attributes
+					{
+						name="ttc_2";
+						description="Tiny Tonk 2 Commander@Tiny Tonk 2";
+						isPlayable=1;
+					};
+					id=12;
+					type="I_crew_F";
+				};
+			};
+			class Attributes
+			{
+			};
+			id=11;
+		};
+		class Item5
+		{
+			dataType="Group";
+			side="Independent";
+			class Entities
+			{
+				items=1;
+				class Item0
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={23140,3.1914389,18975.051};
+					};
+					side="Independent";
+					flags=7;
+					class Attributes
+					{
+						name="ttc_3";
+						description="Tiny Tonk 3 Commander@Tiny Tonk 3";
+						isPlayable=1;
+					};
+					id=14;
+					type="I_crew_F";
+				};
+			};
+			class Attributes
+			{
+			};
+			id=13;
+		};
+		class Item6
+		{
+			dataType="Group";
+			side="Independent";
+			class Entities
+			{
+				items=1;
+				class Item0
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={23145,3.1914389,18975.051};
+					};
+					side="Independent";
+					flags=7;
+					class Attributes
+					{
+						name="ttc_4";
+						description="Tiny Tonk 4 Commander@Tiny Tonk 4";
+						isPlayable=1;
+					};
+					id=16;
+					type="I_crew_F";
+				};
+			};
+			class Attributes
+			{
+			};
+			id=15;
+		};
+		class Item7
+		{
+			dataType="Group";
+			side="Independent";
+			class Entities
+			{
+				items=1;
+				class Item0
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={23150,3.1914389,18975.051};
+					};
+					side="Independent";
+					flags=7;
+					class Attributes
+					{
+						name="ttc_5";
+						description="Tiny Tonk 5 Commander@Tiny Tonk 5";
+						isPlayable=1;
+					};
+					id=18;
+					type="I_crew_F";
+				};
+			};
+			class Attributes
+			{
+			};
+			id=17;
+		};
+		class Item8
+		{
+			dataType="Group";
+			side="Independent";
+			class Entities
+			{
+				items=1;
+				class Item0
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={23155,3.1914389,18975.051};
+					};
+					side="Independent";
+					flags=7;
+					class Attributes
+					{
+						name="ttc_6";
+						description="Tiny Tonk 6 Commander@Tiny Tonk 6";
+						isPlayable=1;
+					};
+					id=20;
+					type="I_crew_F";
+				};
+			};
+			class Attributes
+			{
+			};
+			id=19;
+		};
+		class Item9
+		{
+			dataType="Group";
+			side="Independent";
+			class Entities
+			{
+				items=1;
+				class Item0
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={23130.039,3.1914389,18970.129};
+					};
+					side="Independent";
+					flags=7;
+					class Attributes
+					{
+						name="ttc_7";
+						description="Tiny Tonk 7 Commander@Tiny Tonk 7";
+						isPlayable=1;
+					};
+					id=22;
+					type="I_crew_F";
+				};
+			};
+			class Attributes
+			{
+			};
+			id=21;
+		};
+		class Item10
+		{
+			dataType="Group";
+			side="Independent";
+			class Entities
+			{
+				items=1;
+				class Item0
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={23135.039,3.1914389,18970.129};
+					};
+					side="Independent";
+					flags=7;
+					class Attributes
+					{
+						name="ttc_8";
+						description="Tiny Tonk 8 Commander@Tiny Tonk 8";
+						isPlayable=1;
+					};
+					id=24;
+					type="I_crew_F";
+				};
+			};
+			class Attributes
+			{
+			};
+			id=23;
+		};
+		class Item11
+		{
+			dataType="Group";
+			side="Independent";
+			class Entities
+			{
+				items=1;
+				class Item0
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={23140.039,3.1914389,18970.129};
+					};
+					side="Independent";
+					flags=7;
+					class Attributes
+					{
+						name="ttc_9";
+						description="Tiny Tonk 9 Commander@Tiny Tonk 9";
+						isPlayable=1;
+					};
+					id=26;
+					type="I_crew_F";
+				};
+			};
+			class Attributes
+			{
+			};
+			id=25;
+		};
+		class Item12
+		{
+			dataType="Group";
+			side="Independent";
+			class Entities
+			{
+				items=1;
+				class Item0
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={23145.039,3.1914389,18970.129};
+					};
+					side="Independent";
+					flags=7;
+					class Attributes
+					{
+						name="ttc_10";
+						description="Tiny Tonk 10 Commander@Tiny Tonk 10";
+						isPlayable=1;
+					};
+					id=28;
+					type="I_crew_F";
+				};
+			};
+			class Attributes
+			{
+			};
+			id=27;
+		};
+		class Item13
+		{
+			dataType="Group";
+			side="Independent";
+			class Entities
+			{
+				items=1;
+				class Item0
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={23150.039,3.1914389,18970.129};
+					};
+					side="Independent";
+					flags=7;
+					class Attributes
+					{
+						name="ttc_11";
+						description="Tiny Tonk 11 Commander@Tiny Tonk 11";
+						isPlayable=1;
+					};
+					id=30;
+					type="I_crew_F";
+				};
+			};
+			class Attributes
+			{
+			};
+			id=29;
+		};
+		class Item14
+		{
+			dataType="Group";
+			side="Independent";
+			class Entities
+			{
+				items=1;
+				class Item0
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={23155.039,3.1914389,18970.129};
+					};
+					side="Independent";
+					flags=7;
+					class Attributes
+					{
+						name="ttc_12";
+						description="Tiny Tonk 12 Commander@Tiny Tonk 12";
+						isPlayable=1;
+					};
+					id=32;
+					type="I_crew_F";
+				};
+			};
+			class Attributes
+			{
+			};
+			id=31;
+		};
+		class Item15
+		{
+			dataType="Group";
+			side="Independent";
+			class Entities
+			{
+				items=1;
+				class Item0
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={23129.975,3.1914389,18964.498};
+					};
+					side="Independent";
+					flags=7;
+					class Attributes
+					{
+						name="ttc_13";
+						description="Tiny Tonk 13 Commander@Tiny Tonk 13";
+						isPlayable=1;
+					};
+					id=34;
+					type="I_crew_F";
+				};
+			};
+			class Attributes
+			{
+			};
+			id=33;
+		};
+		class Item16
+		{
+			dataType="Group";
+			side="Independent";
+			class Entities
+			{
+				items=1;
+				class Item0
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={23134.975,3.1914389,18964.498};
+					};
+					side="Independent";
+					flags=7;
+					class Attributes
+					{
+						name="ttc_14";
+						description="Tiny Tonk 14 Commander@Tiny Tonk 14";
+						isPlayable=1;
+					};
+					id=36;
+					type="I_crew_F";
+				};
+			};
+			class Attributes
+			{
+			};
+			id=35;
+		};
+		class Item17
+		{
+			dataType="Group";
+			side="Independent";
+			class Entities
+			{
+				items=1;
+				class Item0
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={23139.975,3.1914389,18964.498};
+					};
+					side="Independent";
+					flags=7;
+					class Attributes
+					{
+						name="ttc_15";
+						description="Tiny Tonk 15 Commander@Tiny Tonk 15";
+						isPlayable=1;
+					};
+					id=38;
+					type="I_crew_F";
+				};
+			};
+			class Attributes
+			{
+			};
+			id=37;
+		};
+		class Item18
+		{
+			dataType="Group";
+			side="Independent";
+			class Entities
+			{
+				items=1;
+				class Item0
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={23144.975,3.1914389,18964.498};
+					};
+					side="Independent";
+					flags=7;
+					class Attributes
+					{
+						name="ttc_16";
+						description="Tiny Tonk 16 Commander@Tiny Tonk 16";
+						isPlayable=1;
+					};
+					id=40;
+					type="I_crew_F";
+				};
+			};
+			class Attributes
+			{
+			};
+			id=39;
+		};
+		class Item19
+		{
+			dataType="Group";
+			side="Independent";
+			class Entities
+			{
+				items=1;
+				class Item0
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={23149.975,3.1914389,18964.498};
+					};
+					side="Independent";
+					flags=7;
+					class Attributes
+					{
+						name="ttc_17";
+						description="Tiny Tonk 17 Commander@Tiny Tonk 17";
+						isPlayable=1;
+					};
+					id=42;
+					type="I_crew_F";
+				};
+			};
+			class Attributes
+			{
+			};
+			id=41;
+		};
+		class Item20
+		{
+			dataType="Group";
+			side="Independent";
+			class Entities
+			{
+				items=1;
+				class Item0
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={23154.975,3.1914389,18964.498};
+					};
+					side="Independent";
+					flags=7;
+					class Attributes
+					{
+						name="ttc_18";
+						description="Tiny Tonk 18 Commander@Tiny Tonk 18";
+						isPlayable=1;
+					};
+					id=44;
+					type="I_crew_F";
+				};
+			};
+			class Attributes
+			{
+			};
+			id=43;
+		};
+		class Item21
+		{
+			dataType="Group";
+			side="Independent";
+			class Entities
+			{
+				items=1;
+				class Item0
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={23129.887,3.1914389,18957.639};
+					};
+					side="Independent";
+					flags=7;
+					class Attributes
+					{
+						name="ttc_19";
+						description="Tiny Tonk 19 Commander@Tiny Tonk 19";
+						isPlayable=1;
+					};
+					id=46;
+					type="I_crew_F";
+				};
+			};
+			class Attributes
+			{
+			};
+			id=45;
+		};
+		class Item22
+		{
+			dataType="Group";
+			side="Independent";
+			class Entities
+			{
+				items=1;
+				class Item0
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={23134.887,3.1914389,18957.639};
+					};
+					side="Independent";
+					flags=7;
+					class Attributes
+					{
+						name="ttc_20";
+						description="Tiny Tonk 20 Commander@Tiny Tonk 20";
+						isPlayable=1;
+					};
+					id=48;
+					type="I_crew_F";
+				};
+			};
+			class Attributes
+			{
+			};
+			id=47;
+		};
+		class Item23
+		{
+			dataType="Group";
+			side="Independent";
+			class Entities
+			{
+				items=1;
+				class Item0
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={23139.887,3.1914389,18957.639};
+					};
+					side="Independent";
+					flags=7;
+					class Attributes
+					{
+						name="ttc_21";
+						description="Tiny Tonk 21 Commander@Tiny Tonk 21";
+						isPlayable=1;
+					};
+					id=50;
+					type="I_crew_F";
+				};
+			};
+			class Attributes
+			{
+			};
+			id=49;
+		};
+		class Item24
+		{
+			dataType="Group";
+			side="Independent";
+			class Entities
+			{
+				items=1;
+				class Item0
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={23144.887,3.1914389,18957.639};
+					};
+					side="Independent";
+					flags=7;
+					class Attributes
+					{
+						name="ttc_22";
+						description="Tiny Tonk 22 Commander@Tiny Tonk 22";
+						isPlayable=1;
+					};
+					id=52;
+					type="I_crew_F";
+				};
+			};
+			class Attributes
+			{
+			};
+			id=51;
+		};
+		class Item25
+		{
+			dataType="Group";
+			side="Independent";
+			class Entities
+			{
+				items=1;
+				class Item0
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={23149.887,3.1914389,18957.639};
+					};
+					side="Independent";
+					flags=7;
+					class Attributes
+					{
+						name="ttc_23";
+						description="Tiny Tonk 23 Commander@Tiny Tonk 23";
+						isPlayable=1;
+					};
+					id=54;
+					type="I_crew_F";
+				};
+			};
+			class Attributes
+			{
+			};
+			id=53;
+		};
+		class Item26
+		{
+			dataType="Group";
+			side="Independent";
+			class Entities
+			{
+				items=1;
+				class Item0
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={23154.887,3.1914389,18957.639};
+					};
+					side="Independent";
+					flags=7;
+					class Attributes
+					{
+						name="ttc_24";
+						description="Tiny Tonk 24 Commander@Tiny Tonk 24";
+						isPlayable=1;
+					};
+					id=56;
+					type="I_crew_F";
+				};
+			};
+			class Attributes
+			{
+			};
+			id=55;
+		};
+		class Item27
+		{
+			dataType="Group";
+			side="Independent";
+			class Entities
+			{
+				items=1;
+				class Item0
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={23129.83,3.1914389,18951.264};
+					};
+					side="Independent";
+					flags=7;
+					class Attributes
+					{
+						name="ttc_25";
+						description="Tiny Tonk 25 Commander@Tiny Tonk 25";
+						isPlayable=1;
+					};
+					id=58;
+					type="I_crew_F";
+				};
+			};
+			class Attributes
+			{
+			};
+			id=57;
+		};
+		class Item28
+		{
+			dataType="Group";
+			side="Independent";
+			class Entities
+			{
+				items=1;
+				class Item0
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={23134.83,3.1914389,18951.264};
+					};
+					side="Independent";
+					flags=7;
+					class Attributes
+					{
+						name="ttc_26";
+						description="Tiny Tonk 26 Commander@Tiny Tonk 26";
+						isPlayable=1;
+					};
+					id=60;
+					type="I_crew_F";
+				};
+			};
+			class Attributes
+			{
+			};
+			id=59;
+		};
+		class Item29
+		{
+			dataType="Group";
+			side="Independent";
+			class Entities
+			{
+				items=1;
+				class Item0
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={23139.83,3.1914389,18951.264};
+					};
+					side="Independent";
+					flags=7;
+					class Attributes
+					{
+						name="ttc_27";
+						description="Tiny Tonk 27 Commander@Tiny Tonk 27";
+						isPlayable=1;
+					};
+					id=62;
+					type="I_crew_F";
+				};
+			};
+			class Attributes
+			{
+			};
+			id=61;
+		};
+		class Item30
+		{
+			dataType="Group";
+			side="Independent";
+			class Entities
+			{
+				items=1;
+				class Item0
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={23144.83,3.1914389,18951.264};
+					};
+					side="Independent";
+					flags=7;
+					class Attributes
+					{
+						name="ttc_28";
+						description="Tiny Tonk 28 Commander@Tiny Tonk 28";
+						isPlayable=1;
+					};
+					id=64;
+					type="I_crew_F";
+				};
+			};
+			class Attributes
+			{
+			};
+			id=63;
+		};
+		class Item31
+		{
+			dataType="Group";
+			side="Independent";
+			class Entities
+			{
+				items=1;
+				class Item0
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={23149.83,3.1914389,18951.264};
+					};
+					side="Independent";
+					flags=7;
+					class Attributes
+					{
+						name="ttc_29";
+						description="Tiny Tonk 29 Commander@Tiny Tonk 29";
+						isPlayable=1;
+					};
+					id=66;
+					type="I_crew_F";
+				};
+			};
+			class Attributes
+			{
+			};
+			id=65;
+		};
+		class Item32
+		{
+			dataType="Group";
+			side="Independent";
+			class Entities
+			{
+				items=1;
+				class Item0
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={23154.83,3.1914389,18951.264};
+					};
+					side="Independent";
+					flags=7;
+					class Attributes
+					{
+						name="ttc_30";
+						description="Tiny Tonk 30 Commander@Tiny Tonk 30";
+						isPlayable=1;
+					};
+					id=68;
+					type="I_crew_F";
+				};
+			};
+			class Attributes
+			{
+			};
+			id=67;
+		};
+		class Item33
+		{
+			dataType="Group";
+			side="Independent";
+			class Entities
+			{
+				items=1;
+				class Item0
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={23129.795,3.1914389,18944.387};
+					};
+					side="Independent";
+					flags=7;
+					class Attributes
+					{
+						name="ttc_31";
+						description="Tiny Tonk 31 Commander@Tiny Tonk 31";
+						isPlayable=1;
+					};
+					id=70;
+					type="I_crew_F";
+				};
+			};
+			class Attributes
+			{
+			};
+			id=69;
+		};
+		class Item34
+		{
+			dataType="Group";
+			side="Independent";
+			class Entities
+			{
+				items=1;
+				class Item0
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={23134.795,3.1914389,18944.387};
+					};
+					side="Independent";
+					flags=7;
+					class Attributes
+					{
+						name="ttc_32";
+						description="Tiny Tonk 32 Commander@Tiny Tonk 32";
+						isPlayable=1;
+					};
+					id=72;
+					type="I_crew_F";
+				};
+			};
+			class Attributes
+			{
+			};
+			id=71;
+		};
+		class Item35
+		{
+			dataType="Group";
+			side="Independent";
+			class Entities
+			{
+				items=1;
+				class Item0
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={23139.795,3.1914389,18944.387};
+					};
+					side="Independent";
+					flags=7;
+					class Attributes
+					{
+						name="ttc_33";
+						description="Tiny Tonk 33 Commander@Tiny Tonk 33";
+						isPlayable=1;
+					};
+					id=74;
+					type="I_crew_F";
+				};
+			};
+			class Attributes
+			{
+			};
+			id=73;
+		};
+		class Item36
+		{
+			dataType="Group";
+			side="Independent";
+			class Entities
+			{
+				items=1;
+				class Item0
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={23144.795,3.1914389,18944.387};
+					};
+					side="Independent";
+					flags=7;
+					class Attributes
+					{
+						name="ttc_34";
+						description="Tiny Tonk 34 Commander@Tiny Tonk 34";
+						isPlayable=1;
+					};
+					id=76;
+					type="I_crew_F";
+				};
+			};
+			class Attributes
+			{
+			};
+			id=75;
+		};
+		class Item37
+		{
+			dataType="Group";
+			side="Independent";
+			class Entities
+			{
+				items=1;
+				class Item0
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={23149.795,3.1914389,18944.387};
+					};
+					side="Independent";
+					flags=7;
+					class Attributes
+					{
+						name="ttc_35";
+						description="Tiny Tonk 35 Commander@Tiny Tonk 35";
+						isPlayable=1;
+					};
+					id=78;
+					type="I_crew_F";
+				};
+			};
+			class Attributes
+			{
+			};
+			id=77;
+		};
+		class Item38
+		{
+			dataType="Group";
+			side="Independent";
+			class Entities
+			{
+				items=1;
+				class Item0
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={23154.795,3.1914389,18944.387};
+					};
+					side="Independent";
+					flags=7;
+					class Attributes
+					{
+						name="ttc_36";
+						description="Tiny Tonk 36 Commander@Tiny Tonk 36";
+						isPlayable=1;
+					};
+					id=80;
+					type="I_crew_F";
+				};
+			};
+			class Attributes
+			{
+			};
+			id=79;
+		};
+		class Item39
+		{
+			dataType="Group";
+			side="Independent";
+			class Entities
+			{
+				items=1;
+				class Item0
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={23129.758,3.1914389,18937.543};
+					};
+					side="Independent";
+					flags=7;
+					class Attributes
+					{
+						name="ttc_37";
+						description="Tiny Tonk 37 Commander@Tiny Tonk 37";
+						isPlayable=1;
+					};
+					id=82;
+					type="I_crew_F";
+				};
+			};
+			class Attributes
+			{
+			};
+			id=81;
+		};
+		class Item40
+		{
+			dataType="Group";
+			side="Independent";
+			class Entities
+			{
+				items=1;
+				class Item0
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={23134.758,3.1914389,18937.543};
+					};
+					side="Independent";
+					flags=7;
+					class Attributes
+					{
+						name="ttc_38";
+						description="Tiny Tonk 38 Commander@Tiny Tonk 38";
+						isPlayable=1;
+					};
+					id=84;
+					type="I_crew_F";
+				};
+			};
+			class Attributes
+			{
+			};
+			id=83;
+		};
+		class Item41
+		{
+			dataType="Group";
+			side="Independent";
+			class Entities
+			{
+				items=1;
+				class Item0
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={23139.758,3.1914389,18937.543};
+					};
+					side="Independent";
+					flags=7;
+					class Attributes
+					{
+						name="ttc_39";
+						description="Tiny Tonk 39 Commander@Tiny Tonk 39";
+						isPlayable=1;
+					};
+					id=86;
+					type="I_crew_F";
+				};
+			};
+			class Attributes
+			{
+			};
+			id=85;
+		};
+		class Item42
+		{
+			dataType="Group";
+			side="Independent";
+			class Entities
+			{
+				items=1;
+				class Item0
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={23144.758,3.1914389,18937.543};
+					};
+					side="Independent";
+					flags=7;
+					class Attributes
+					{
+						name="ttc_40";
+						description="Tiny Tonk 40 Commander@Tiny Tonk 40";
+						isPlayable=1;
+					};
+					id=88;
+					type="I_crew_F";
+				};
+			};
+			class Attributes
+			{
+			};
+			id=87;
+		};
+		class Item43
+		{
+			dataType="Group";
+			side="Independent";
+			class Entities
+			{
+				items=1;
+				class Item0
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={23149.758,3.1914389,18937.543};
+					};
+					side="Independent";
+					flags=7;
+					class Attributes
+					{
+						name="ttc_41";
+						description="Tiny Tonk 41 Commander@Tiny Tonk 41";
+						isPlayable=1;
+					};
+					id=90;
+					type="I_crew_F";
+				};
+			};
+			class Attributes
+			{
+			};
+			id=89;
+		};
+		class Item44
+		{
+			dataType="Group";
+			side="Independent";
+			class Entities
+			{
+				items=1;
+				class Item0
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={23154.758,3.1914389,18937.543};
+					};
+					side="Independent";
+					flags=7;
+					class Attributes
+					{
+						name="ttc_42";
+						description="Tiny Tonk 42 Commander@Tiny Tonk 42";
+						isPlayable=1;
+					};
+					id=92;
+					type="I_crew_F";
+				};
+			};
+			class Attributes
+			{
+			};
+			id=91;
+		};
+		class Item45
+		{
+			dataType="Group";
+			side="Independent";
+			class Entities
+			{
+				items=1;
+				class Item0
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={23129.803,3.1914389,18930.736};
+					};
+					side="Independent";
+					flags=7;
+					class Attributes
+					{
+						name="ttc_43";
+						description="Tiny Tonk 43 Commander@Tiny Tonk 43";
+						isPlayable=1;
+					};
+					id=94;
+					type="I_crew_F";
+				};
+			};
+			class Attributes
+			{
+			};
+			id=93;
+		};
+		class Item46
+		{
+			dataType="Group";
+			side="Independent";
+			class Entities
+			{
+				items=1;
+				class Item0
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={23134.803,3.1914389,18930.736};
+					};
+					side="Independent";
+					flags=7;
+					class Attributes
+					{
+						name="ttc_44";
+						description="Tiny Tonk 44 Commander@Tiny Tonk 44";
+						isPlayable=1;
+					};
+					id=96;
+					type="I_crew_F";
+				};
+			};
+			class Attributes
+			{
+			};
+			id=95;
+		};
+		class Item47
+		{
+			dataType="Group";
+			side="Independent";
+			class Entities
+			{
+				items=1;
+				class Item0
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={23139.803,3.1914389,18930.736};
+					};
+					side="Independent";
+					flags=7;
+					class Attributes
+					{
+						name="ttc_45";
+						description="Tiny Tonk 45 Commander@Tiny Tonk 45";
+						isPlayable=1;
+					};
+					id=98;
+					type="I_crew_F";
+				};
+			};
+			class Attributes
+			{
+			};
+			id=97;
+		};
+		class Item48
+		{
+			dataType="Group";
+			side="Independent";
+			class Entities
+			{
+				items=1;
+				class Item0
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={23144.803,3.1914389,18930.736};
+					};
+					side="Independent";
+					flags=7;
+					class Attributes
+					{
+						name="ttc_46";
+						description="Tiny Tonk 46 Commander@Tiny Tonk 46";
+						isPlayable=1;
+					};
+					id=100;
+					type="I_crew_F";
+				};
+			};
+			class Attributes
+			{
+			};
+			id=99;
+		};
+		class Item49
+		{
+			dataType="Group";
+			side="Independent";
+			class Entities
+			{
+				items=1;
+				class Item0
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={23149.803,3.1914389,18930.736};
+					};
+					side="Independent";
+					flags=7;
+					class Attributes
+					{
+						name="ttc_47";
+						description="Tiny Tonk 47 Commander@Tiny Tonk 47";
+						isPlayable=1;
+					};
+					id=102;
+					type="I_crew_F";
+				};
+			};
+			class Attributes
+			{
+			};
+			id=101;
+		};
+		class Item50
+		{
+			dataType="Group";
+			side="Independent";
+			class Entities
+			{
+				items=1;
+				class Item0
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={23154.803,3.1914389,18930.736};
+					};
+					side="Independent";
+					flags=7;
+					class Attributes
+					{
+						name="ttc_48";
+						description="Tiny Tonk 48 Commander@Tiny Tonk 48";
+						isPlayable=1;
+					};
+					id=104;
+					type="I_crew_F";
+				};
+			};
+			class Attributes
+			{
+			};
+			id=103;
+		};
+		class Item51
+		{
+			dataType="Group";
+			side="Independent";
+			class Entities
+			{
+				items=1;
+				class Item0
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={23129.85,3.1914389,18924.209};
+					};
+					side="Independent";
+					flags=7;
+					class Attributes
+					{
+						name="ttc_49";
+						description="Tiny Tonk 49 Commander@Tiny Tonk 49";
+						isPlayable=1;
+					};
+					id=106;
+					type="I_crew_F";
+				};
+			};
+			class Attributes
+			{
+			};
+			id=105;
+		};
+		class Item52
+		{
+			dataType="Group";
+			side="Independent";
+			class Entities
+			{
+				items=1;
+				class Item0
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={23134.85,3.1914389,18924.209};
+					};
+					side="Independent";
+					flags=7;
+					class Attributes
+					{
+						name="ttc_50";
+						description="Tiny Tonk 50 Commander@Tiny Tonk 50";
+						isPlayable=1;
+					};
+					id=108;
+					type="I_crew_F";
+				};
+			};
+			class Attributes
+			{
+			};
+			id=107;
+		};
+		class Item53
+		{
+			dataType="Group";
+			side="Independent";
+			class Entities
+			{
+				items=1;
+				class Item0
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={23139.85,3.1914389,18924.209};
+					};
+					side="Independent";
+					flags=7;
+					class Attributes
+					{
+						name="ttc_51";
+						description="Tiny Tonk 51 Commander@Tiny Tonk 51";
+						isPlayable=1;
+					};
+					id=110;
+					type="I_crew_F";
+				};
+			};
+			class Attributes
+			{
+			};
+			id=109;
+		};
+		class Item54
+		{
+			dataType="Group";
+			side="Independent";
+			class Entities
+			{
+				items=1;
+				class Item0
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={23144.85,3.1914389,18924.209};
+					};
+					side="Independent";
+					flags=7;
+					class Attributes
+					{
+						name="ttc_52";
+						description="Tiny Tonk 52 Commander@Tiny Tonk 52";
+						isPlayable=1;
+					};
+					id=112;
+					type="I_crew_F";
+				};
+			};
+			class Attributes
+			{
+			};
+			id=111;
+		};
+		class Item55
+		{
+			dataType="Group";
+			side="Independent";
+			class Entities
+			{
+				items=1;
+				class Item0
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={23149.85,3.1914389,18924.209};
+					};
+					side="Independent";
+					flags=7;
+					class Attributes
+					{
+						name="ttc_53";
+						description="Tiny Tonk 53 Commander@Tiny Tonk 53";
+						isPlayable=1;
+					};
+					id=114;
+					type="I_crew_F";
+				};
+			};
+			class Attributes
+			{
+			};
+			id=113;
+		};
+		class Item56
+		{
+			dataType="Group";
+			side="Independent";
+			class Entities
+			{
+				items=1;
+				class Item0
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={23154.85,3.1914389,18924.209};
+					};
+					side="Independent";
+					flags=7;
+					class Attributes
+					{
+						name="ttc_54";
+						description="Tiny Tonk 54 Commander@Tiny Tonk 54";
+						isPlayable=1;
+					};
+					id=116;
+					type="I_crew_F";
+				};
+			};
+			class Attributes
+			{
+			};
+			id=115;
+		};
+		class Item57
+		{
+			dataType="Group";
+			side="Independent";
+			class Entities
+			{
+				items=1;
+				class Item0
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={23129.898,3.1914389,18917.299};
+					};
+					side="Independent";
+					flags=7;
+					class Attributes
+					{
+						name="ttc_55";
+						description="Tiny Tonk 55 Commander@Tiny Tonk 55";
+						isPlayable=1;
+					};
+					id=118;
+					type="I_crew_F";
+				};
+			};
+			class Attributes
+			{
+			};
+			id=117;
+		};
+		class Item58
+		{
+			dataType="Group";
+			side="Independent";
+			class Entities
+			{
+				items=1;
+				class Item0
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={23134.898,3.1914389,18917.299};
+					};
+					side="Independent";
+					flags=7;
+					class Attributes
+					{
+						name="ttc_56";
+						description="Tiny Tonk 56 Commander@Tiny Tonk 56";
+						isPlayable=1;
+					};
+					id=120;
+					type="I_crew_F";
+				};
+			};
+			class Attributes
+			{
+			};
+			id=119;
+		};
+		class Item59
+		{
+			dataType="Group";
+			side="Independent";
+			class Entities
+			{
+				items=1;
+				class Item0
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={23139.898,3.1914389,18917.299};
+					};
+					side="Independent";
+					flags=7;
+					class Attributes
+					{
+						name="ttc_57";
+						description="Tiny Tonk 57 Commander@Tiny Tonk 57";
+						isPlayable=1;
+					};
+					id=122;
+					type="I_crew_F";
+				};
+			};
+			class Attributes
+			{
+			};
+			id=121;
+		};
+		class Item60
+		{
+			dataType="Group";
+			side="Independent";
+			class Entities
+			{
+				items=1;
+				class Item0
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={23144.898,3.1914389,18917.299};
+					};
+					side="Independent";
+					flags=7;
+					class Attributes
+					{
+						name="ttc_58";
+						description="Tiny Tonk 58 Commander@Tiny Tonk 58";
+						isPlayable=1;
+					};
+					id=124;
+					type="I_crew_F";
+				};
+			};
+			class Attributes
+			{
+			};
+			id=123;
+		};
+		class Item61
+		{
+			dataType="Group";
+			side="Independent";
+			class Entities
+			{
+				items=1;
+				class Item0
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={23149.898,3.1914389,18917.299};
+					};
+					side="Independent";
+					flags=7;
+					class Attributes
+					{
+						name="ttc_59";
+						description="Tiny Tonk 59 Commander@Tiny Tonk 59";
+						isPlayable=1;
+					};
+					id=126;
+					type="I_crew_F";
+				};
+			};
+			class Attributes
+			{
+			};
+			id=125;
+		};
+		class Item62
+		{
+			dataType="Group";
+			side="Independent";
+			class Entities
+			{
+				items=1;
+				class Item0
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={23154.898,3.1914389,18917.299};
+					};
+					side="Independent";
+					flags=7;
+					class Attributes
+					{
+						name="ttc_60";
+						description="Tiny Tonk 60 Commander@Tiny Tonk 60";
+						isPlayable=1;
+					};
+					id=128;
+					type="I_crew_F";
+				};
+			};
+			class Attributes
+			{
+			};
+			id=127;
+		};
+		class Item63
+		{
+			dataType="Marker";
+			position[]={3303.4985,5.3682256,13160.738};
+			name="kavala_spawn_2";
+			type="Empty";
+			angle=338.50134;
+			id=129;
+		};
+		class Item64
+		{
+			dataType="Marker";
+			position[]={3477.1255,2.1157093,13299.815};
+			name="kavala_spawn_3";
+			type="Empty";
+			angle=209.25508;
+			id=130;
+			atlOffset=0.00026750565;
+		};
+		class Item65
+		{
+			dataType="Marker";
+			position[]={3522.2295,3.6783562,13201.222};
+			name="kavala_spawn_4";
+			type="Empty";
+			angle=304.89682;
+			id=132;
+			atlOffset=-0.01906085;
+		};
+		class Item66
+		{
+			dataType="Marker";
+			position[]={3246.334,2.1114948,12966.588};
+			name="kavala_spawn_5";
+			type="Empty";
+			angle=183.48788;
+			id=133;
+			atlOffset=-0.00039839745;
+		};
+		class Item67
+		{
+			dataType="Marker";
+			position[]={3450.4888,6.3351674,12648.23};
+			name="kavala_spawn_6";
+			type="Empty";
+			angle=25.775352;
+			id=134;
+			atlOffset=0.039611816;
+		};
+		class Item68
+		{
+			dataType="Marker";
+			position[]={3507.4915,12.683491,12608.634};
+			name="kavala_spawn_7";
+			type="Empty";
+			angle=28.862749;
+			id=135;
+		};
+		class Item69
+		{
+			dataType="Marker";
+			position[]={3561.2114,12.020022,12689.624};
+			name="kavala_spawn_8";
+			type="Empty";
+			angle=141.76851;
+			id=136;
+		};
+		class Item70
+		{
+			dataType="Marker";
+			position[]={3501.9294,6.9959226,12749.019};
+			name="kavala_spawn_9";
+			type="Empty";
+			angle=296.57202;
+			id=137;
+			atlOffset=0.032952785;
+		};
+		class Item71
+		{
+			dataType="Marker";
+			position[]={3613.9644,12.750214,12733.341};
+			name="kavala_spawn_10";
+			type="Empty";
+			angle=359.42783;
+			id=138;
+			atlOffset=0.01362133;
+		};
+		class Item72
+		{
+			dataType="Marker";
+			position[]={3729.7261,20.046627,12716.943};
+			name="kavala_spawn_11";
+			type="Empty";
+			angle=34.258678;
+			id=139;
+			atlOffset=0.012531281;
+		};
+		class Item73
+		{
+			dataType="Marker";
+			position[]={3824.9905,22.601351,12730.893};
+			name="kavala_spawn_12";
+			type="Empty";
+			angle=297.18707;
+			id=140;
+			atlOffset=0.0088310242;
+		};
+		class Item74
+		{
+			dataType="Marker";
+			position[]={3893.3928,22.361557,12762.626};
+			name="kavala_spawn_13";
+			type="Empty";
+			angle=273.68445;
+			id=141;
+			atlOffset=0.00026702881;
+		};
+		class Item75
+		{
+			dataType="Marker";
+			position[]={3875.5874,18.173092,12904.265};
+			name="kavala_spawn_14";
+			type="Empty";
+			angle=272.12012;
+			id=142;
+			atlOffset=0.05761528;
+		};
+		class Item76
+		{
+			dataType="Marker";
+			position[]={3636.9082,15.234188,12912.313};
+			name="kavala_spawn_15";
+			type="Empty";
+			angle=296.74927;
+			id=143;
+			atlOffset=0.064940453;
+		};
+		class Item77
+		{
+			dataType="Marker";
+			position[]={3607.6548,14.341781,12852.118};
+			name="kavala_spawn_16";
+			type="Empty";
+			angle=118.27337;
+			id=144;
+		};
+		class Item78
+		{
+			dataType="Marker";
+			position[]={3551.9692,10.301103,12810.579};
+			name="kavala_spawn_17";
+			type="Empty";
+			angle=22.486397;
+			id=145;
+		};
+		class Item79
+		{
+			dataType="Marker";
+			position[]={3500.9851,8.3817501,12846.927};
+			name="kavala_spawn_18";
+			type="Empty";
+			angle=273.64212;
+			id=146;
+			atlOffset=0.10561371;
+		};
+		class Item80
+		{
+			dataType="Marker";
+			position[]={3489.5439,7.3482156,12800.133};
+			name="kavala_spawn_19";
+			type="Empty";
+			angle=110.85701;
+			id=147;
+			atlOffset=0.061994553;
+		};
+		class Item81
+		{
+			dataType="Marker";
+			position[]={3558.9824,12.140419,12922.78};
+			name="kavala_spawn_20";
+			type="Empty";
+			angle=241.75121;
+			id=148;
+			atlOffset=0.0016107559;
+		};
+		class Item82
+		{
+			dataType="Marker";
+			position[]={3490.3372,7.3368182,12923.604};
+			name="kavala_spawn_21";
+			type="Empty";
+			angle=6.8165836;
+			id=149;
+			atlOffset=0.029593945;
+		};
+		class Item83
+		{
+			dataType="Marker";
+			position[]={3440.4387,3.0764024,12915.89};
+			name="kavala_spawn_22";
+			type="Empty";
+			angle=339.77945;
+			id=150;
+			atlOffset=0.022949457;
+		};
+		class Item84
+		{
+			dataType="Marker";
+			position[]={3401.834,2.4844606,12965.951};
+			name="kavala_spawn_23";
+			type="Empty";
+			angle=349.96512;
+			id=151;
+			atlOffset=-0.001732111;
+		};
+		class Item85
+		{
+			dataType="Marker";
+			position[]={3459.5923,6.2835536,12971.681};
+			name="kavala_spawn_24";
+			type="Empty";
+			angle=2.7441254;
+			id=152;
+			atlOffset=0.054280758;
+		};
+		class Item86
+		{
+			dataType="Marker";
+			position[]={3782.1226,18.80352,12979.098};
+			name="kavala_spawn_25";
+			type="Empty";
+			angle=177.10124;
+			id=153;
+			atlOffset=0.0076160431;
+		};
+		class Item87
+		{
+			dataType="Marker";
+			position[]={3744.5833,18.838112,12993.7};
+			name="kavala_spawn_26";
+			type="Empty";
+			angle=2.4738591;
+			id=154;
+			atlOffset=0.00026702881;
+		};
+		class Item88
+		{
+			dataType="Marker";
+			position[]={3703.8657,15.34066,13056.226};
+			name="kavala_spawn_27";
+			type="Empty";
+			angle=178.66663;
+			id=155;
+			atlOffset=0.018292427;
+		};
+		class Item89
+		{
+			dataType="Marker";
+			position[]={3631.5356,11.170666,13052.082};
+			name="kavala_spawn_28";
+			type="Empty";
+			angle=240.53139;
+			id=156;
+			atlOffset=-0.013062477;
+		};
+		class Item90
+		{
+			dataType="Marker";
+			position[]={3555.9973,8.6048088,13004.268};
+			name="kavala_spawn_29";
+			type="Empty";
+			angle=13.647709;
+			id=157;
+			atlOffset=0.0036115646;
+		};
+		class Item91
+		{
+			dataType="Marker";
+			position[]={3494.5508,7.9491811,13008.437};
+			name="kavala_spawn_30";
+			type="Empty";
+			angle=94.048561;
+			id=158;
+			atlOffset=-0.0097789764;
+		};
+		class Item92
+		{
+			dataType="Marker";
+			position[]={3434.1379,5.2061005,13057.412};
+			name="kavala_spawn_31";
+			type="Empty";
+			angle=162.52011;
+			id=159;
+			atlOffset=0.006216526;
+		};
+		class Item93
+		{
+			dataType="Marker";
+			position[]={3395.5637,4.2539673,13120.197};
+			name="kavala_spawn_32";
+			type="Empty";
+			angle=278.70245;
+			id=160;
+			atlOffset=-0.012397289;
+		};
+		class Item94
+		{
+			dataType="Marker";
+			position[]={3418.4187,2.7227554,13209.813};
+			name="kavala_spawn_33";
+			type="Empty";
+			angle=137.60858;
+			id=161;
+			atlOffset=-0.0063974857;
+		};
+		class Item95
+		{
+			dataType="Marker";
+			position[]={3453.9041,2.3202674,13247.145};
+			name="kavala_spawn_34";
+			type="Empty";
+			angle=142.93553;
+			id=162;
+			atlOffset=0.00026750565;
+		};
+		class Item96
+		{
+			dataType="Marker";
+			position[]={3468.4604,4.5446362,13148.571};
+			name="kavala_spawn_35";
+			type="Empty";
+			angle=93.363739;
+			id=163;
+			atlOffset=-0.011063099;
+		};
+		class Item97
+		{
+			dataType="Marker";
+			position[]={3574.0259,8.3725605,13148.91};
+			name="kavala_spawn_36";
+			type="Empty";
+			angle=162.35638;
+			id=164;
+			atlOffset=0.00094032288;
+		};
+		class Item98
+		{
+			dataType="Marker";
+			position[]={3559.6641,8.2439423,13063.014};
+			name="kavala_spawn_37";
+			type="Empty";
+			angle=43.856972;
+			id=165;
+			atlOffset=0.080274582;
+		};
+		class Item99
+		{
+			dataType="Marker";
+			position[]={3653.6255,16.131172,12964.189};
+			name="kavala_spawn_38";
+			type="Empty";
+			angle=236.10912;
+			id=166;
+			atlOffset=0.052278519;
+		};
+		class Item100
+		{
+			dataType="Marker";
+			position[]={3718.0334,14.114443,13092.781};
+			name="kavala_spawn_39";
+			type="Empty";
+			angle=101.40482;
+			id=167;
+			atlOffset=-0.02905941;
+		};
+		class Item101
+		{
+			dataType="Marker";
+			position[]={3580.5984,9.4599113,13105.093};
+			name="kavala_spawn_40";
+			type="Empty";
+			angle=162.2807;
+			id=168;
+			atlOffset=0.011597633;
+		};
+		class Item102
+		{
+			dataType="Marker";
+			position[]={3589.9355,5.6738391,13198.602};
+			name="kavala_spawn_41";
+			type="Empty";
+			angle=311.60608;
+			id=169;
+			atlOffset=0.050255299;
+		};
+		class Item103
+		{
+			dataType="Marker";
+			position[]={3664.9248,10.715662,13221.366};
+			name="kavala_spawn_42";
+			type="Empty";
+			angle=326.91473;
+			id=170;
+			atlOffset=0.027594566;
+		};
+		class Item104
+		{
+			dataType="Marker";
+			position[]={3722.0449,12.237215,13188.713};
+			name="kavala_spawn_43";
+			type="Empty";
+			angle=219.13535;
+			id=171;
+			atlOffset=0.015602112;
+		};
+		class Item105
+		{
+			dataType="Marker";
+			position[]={3764.6165,13.402948,13146.559};
+			name="kavala_spawn_44";
+			type="Empty";
+			angle=179.34267;
+			id=172;
+			atlOffset=-0.0095405579;
+		};
+		class Item106
+		{
+			dataType="Marker";
+			position[]={3532.8569,2.4336319,13267.262};
+			name="kavala_spawn_45";
+			type="Empty";
+			angle=224.99257;
+			id=173;
+			atlOffset=0.0028407574;
+		};
+		class Item107
+		{
+			dataType="Marker";
+			position[]={3495.6384,2.5050945,13243.834};
+			name="kavala_spawn_46";
+			type="Empty";
+			angle=312.03833;
+			id=174;
+			atlOffset=-0.0043239594;
+		};
+		class Item108
+		{
+			dataType="Marker";
+			position[]={3555.3418,4.4648933,13356.106};
+			name="kavala_spawn_47";
+			type="Empty";
+			angle=217.97949;
+			id=175;
+			atlOffset=0.00026798248;
+		};
+		class Item109
+		{
+			dataType="Marker";
+			position[]={3564.8887,4.9991379,13411.289};
+			name="kavala_spawn_48";
+			type="Empty";
+			angle=307.18115;
+			id=176;
+			atlOffset=-0.0037283897;
+		};
+		class Item110
+		{
+			dataType="Marker";
+			position[]={3634.4326,7.1762476,13325.819};
+			name="kavala_spawn_49";
+			type="Empty";
+			angle=295.45322;
+			id=177;
+			atlOffset=0.0082712173;
+		};
+		class Item111
+		{
+			dataType="Marker";
+			position[]={3719.2712,11.094635,13310.929};
+			name="kavala_spawn_50";
+			type="Empty";
+			angle=45.716576;
+			id=178;
+			atlOffset=-0.0090742111;
+		};
+		class Item112
+		{
+			dataType="Marker";
+			position[]={3820.2498,14.928129,13236.667};
+			name="kavala_spawn_51";
+			type="Empty";
+			angle=238.56763;
+			id=179;
+			atlOffset=0.013597488;
+		};
+		class Item113
+		{
+			dataType="Marker";
+			position[]={3825.9172,12.498829,13442.595};
+			name="kavala_spawn_52";
+			type="Empty";
+			angle=298.40048;
+			id=181;
+			atlOffset=0.07159996;
+		};
+		class Item114
+		{
+			dataType="Marker";
+			position[]={3759.968,11.17795,13444.997};
+			name="kavala_spawn_53";
+			type="Empty";
+			angle=280.62354;
+			id=182;
+			atlOffset=0.018896103;
+		};
+		class Item115
+		{
+			dataType="Marker";
+			position[]={3713.4712,10.124292,13445.945};
+			name="kavala_spawn_54";
+			type="Empty";
+			angle=16.486948;
+			id=183;
+			atlOffset=0.098648071;
+		};
+		class Item116
+		{
+			dataType="Marker";
+			position[]={3658.8516,8.4701195,13474.074};
+			name="kavala_spawn_55";
+			type="Empty";
+			angle=233.42447;
+			id=184;
+			atlOffset=0.034275055;
+		};
+		class Item117
+		{
+			dataType="Marker";
+			position[]={3619.1409,4.0442977,13546.954};
+			name="kavala_spawn_56";
+			type="Empty";
+			angle=192.12798;
+			id=185;
+			atlOffset=0.0195961;
+		};
+		class Item118
+		{
+			dataType="Marker";
+			position[]={3648.845,8.0734825,13759.953};
+			name="kavala_spawn_57";
+			type="Empty";
+			angle=245.72241;
+			id=186;
+			atlOffset=0.069582939;
+		};
+		class Item119
+		{
+			dataType="Marker";
+			position[]={3606.5857,5.9554353,13812.076};
+			name="kavala_spawn_58";
+			type="Empty";
+			angle=90.774261;
+			id=187;
+			atlOffset=0.066957474;
+		};
+		class Item120
+		{
+			dataType="Marker";
+			position[]={3606.0847,9.7351303,13957.497};
+			name="kavala_spawn_59";
+			type="Empty";
+			angle=159.09;
+			id=188;
+			atlOffset=0.0089092255;
+		};
+		class Item121
+		{
+			dataType="Marker";
+			position[]={3722.9634,17.723185,13889.751};
+			name="kavala_spawn_60";
+			type="Empty";
+			angle=185.02348;
+			id=189;
+			atlOffset=0.019979477;
+		};
+		class Item122
+		{
+			dataType="Marker";
+			position[]={3810.1411,21.703876,13811.677};
+			name="kavala_spawn_61";
+			type="Empty";
+			angle=233.56317;
+			id=190;
+			atlOffset=0.034273148;
+		};
+		class Item123
+		{
+			dataType="Marker";
+			position[]={3857.7927,17.167095,13703.02};
+			name="kavala_spawn_62";
+			type="Empty";
+			angle=273.34784;
+			id=191;
+			atlOffset=0.085613251;
+		};
+		class Item124
+		{
+			dataType="Marker";
+			position[]={3829.1189,15.647564,13645.331};
+			name="kavala_spawn_63";
+			type="Empty";
+			angle=307.92307;
+			id=192;
+			atlOffset=0.026119232;
+		};
+		class Item125
+		{
+			dataType="Marker";
+			position[]={3868.3438,15.971878,13620.489};
+			name="kavala_spawn_64";
+			type="Empty";
+			angle=119.95853;
+			id=193;
+			atlOffset=0.024940491;
+		};
+		class Item126
+		{
+			dataType="Marker";
+			position[]={3997.9536,19.129486,13680.479};
+			name="kavala_spawn_65";
+			type="Empty";
+			angle=102.63236;
+			id=194;
+			atlOffset=0.030942917;
+		};
+		class Item127
+		{
+			dataType="Marker";
+			position[]={14303.766,19.233,18277.26};
+			name="athira";
+			type="Empty";
+			id=196;
+			atlOffset=-3.8146973e-006;
+		};
+		class Item128
+		{
+			dataType="Marker";
+			position[]={14371.869,38.523998,19003.654};
+			name="athira_spawn_0";
+			type="Empty";
+			angle=130.77499;
+			id=197;
+			atlOffset=0.094596863;
+		};
+		class Item129
+		{
+			dataType="Marker";
+			position[]={14313.236,36.872417,18872.521};
+			name="athira_spawn_1";
+			type="Empty";
+			angle=311.54944;
+			id=198;
+			atlOffset=0.10525894;
+		};
+		class Item130
+		{
+			dataType="Marker";
+			position[]={14289.334,36.83289,18958.053};
+			name="athira_spawn_2";
+			type="Empty";
+			angle=229.81392;
+			id=199;
+			atlOffset=0.090377808;
+		};
+		class Item131
+		{
+			dataType="Marker";
+			position[]={14189.661,31.936806,18823.602};
+			name="athira_spawn_3";
+			type="Empty";
+			angle=214.46111;
+			id=200;
+			atlOffset=0.14712715;
+		};
+		class Item132
+		{
+			dataType="Marker";
+			position[]={14049.299,23.887157,18825.773};
+			name="athira_spawn_4";
+			type="Empty";
+			angle=302.47449;
+			id=201;
+			atlOffset=0.10059738;
+		};
+		class Item133
+		{
+			dataType="Marker";
+			position[]={13980.021,22.619598,18861.053};
+			name="athira_spawn_5";
+			type="Empty";
+			angle=304.06647;
+			id=202;
+			atlOffset=0.11459351;
+		};
+		class Item134
+		{
+			dataType="Marker";
+			position[]={13891.626,21.044462,18965.018};
+			name="athira_spawn_6";
+			type="Empty";
+			angle=241.57239;
+			id=203;
+			atlOffset=0.11503792;
+		};
+		class Item135
+		{
+			dataType="Marker";
+			position[]={13795.971,20.214905,18927.99};
+			name="athira_spawn_7";
+			type="Empty";
+			angle=277.50586;
+			id=204;
+			atlOffset=0.077934265;
+		};
+		class Item136
+		{
+			dataType="Marker";
+			position[]={13866.564,19.633284,18836.223};
+			name="athira_spawn_8";
+			type="Empty";
+			angle=98.045639;
+			id=205;
+			atlOffset=0.11125946;
+		};
+		class Item137
+		{
+			dataType="Marker";
+			position[]={13877.602,21.397087,18752.273};
+			name="athira_spawn_9";
+			type="Empty";
+			angle=302.2648;
+			id=206;
+			atlOffset=0.096628189;
+		};
+		class Item138
+		{
+			dataType="Marker";
+			position[]={13937.103,23.691101,18766.775};
+			name="athira_spawn_10";
+			type="Empty";
+			angle=134.61526;
+			id=207;
+			atlOffset=0.097929001;
+		};
+		class Item139
+		{
+			dataType="Marker";
+			position[]={13966.686,24.749363,18766.676};
+			name="athira_spawn_11";
+			type="Empty";
+			angle=33.505142;
+			id=208;
+			atlOffset=0.11392403;
+		};
+		class Item140
+		{
+			dataType="Marker";
+			position[]={14015.733,25.131815,18760.904};
+			name="athira_spawn_12";
+			type="Empty";
+			angle=35.775391;
+			id=209;
+			atlOffset=0.10659409;
+		};
+		class Item141
+		{
+			dataType="Marker";
+			position[]={14252.981,24.27529,18567.035};
+			name="athira_spawn_13";
+			type="Empty";
+			angle=47.011471;
+			id=210;
+			atlOffset=0.12325668;
+		};
+		class Item142
+		{
+			dataType="Marker";
+			position[]={14422.766,30.350149,18655.199};
+			name="athira_spawn_14";
+			type="Empty";
+			angle=204.50377;
+			id=211;
+			atlOffset=0.12059021;
+		};
+		class Item143
+		{
+			dataType="Marker";
+			position[]={14326.68,27.048256,18598.506};
+			name="athira_spawn_15";
+			type="Empty";
+			angle=179.0752;
+			id=212;
+			atlOffset=0.12260818;
+		};
+		class Item144
+		{
+			dataType="Marker";
+			position[]={14219.823,18.959442,18391.68};
+			name="athira_spawn_16";
+			type="Empty";
+			angle=190.93259;
+			id=213;
+		};
+		class Item145
+		{
+			dataType="Marker";
+			position[]={14244.39,18.737041,18307.523};
+			name="athira_spawn_17";
+			type="Empty";
+			angle=245.07065;
+			id=214;
+			atlOffset=0.094596863;
+		};
+		class Item146
+		{
+			dataType="Marker";
+			position[]={14154.688,17.888777,18314.611};
+			name="athira_spawn_18";
+			type="Empty";
+			angle=337.86145;
+			id=215;
+			atlOffset=0.092233658;
+		};
+		class Item147
+		{
+			dataType="Marker";
+			position[]={14009.445,19.350344,18338.723};
+			name="athira_spawn_19";
+			type="Empty";
+			angle=318.95895;
+			id=216;
+			atlOffset=0.085266113;
+		};
+		class Item148
+		{
+			dataType="Marker";
+			position[]={14021.702,18.06881,18444.604};
+			name="athira_spawn_20";
+			type="Empty";
+			angle=352.75626;
+			id=217;
+			atlOffset=0.089263916;
+		};
+		class Item149
+		{
+			dataType="Marker";
+			position[]={14002.342,20.263689,18524.029};
+			name="athira_spawn_21";
+			type="Empty";
+			angle=5.5896454;
+			id=218;
+			atlOffset=0.12971878;
+		};
+		class Item150
+		{
+			dataType="Marker";
+			position[]={13954.01,19.849474,18551.422};
+			name="athira_spawn_22";
+			type="Empty";
+			angle=265.10016;
+			id=219;
+			atlOffset=0.1479187;
+		};
+		class Item151
+		{
+			dataType="Marker";
+			position[]={13907.951,20.498056,18607.596};
+			name="athira_spawn_23";
+			type="Empty";
+			angle=211.44731;
+			id=220;
+			atlOffset=0.15391541;
+		};
+		class Item152
+		{
+			dataType="Marker";
+			position[]={13884.792,20.446821,18657.121};
+			name="athira_spawn_24";
+			type="Empty";
+			angle=206.56195;
+			id=221;
+			atlOffset=0.11143875;
+		};
+		class Item153
+		{
+			dataType="Marker";
+			position[]={13930.344,22.178909,18677.332};
+			name="athira_spawn_25";
+			type="Empty";
+			angle=323.81186;
+			id=222;
+			atlOffset=0.085931778;
+		};
+		class Item154
+		{
+			dataType="Marker";
+			position[]={13971.083,24.445152,18692.68};
+			name="athira_spawn_26";
+			type="Empty";
+			angle=291.80862;
+			id=223;
+			atlOffset=0.1519165;
+		};
+		class Item155
+		{
+			dataType="Marker";
+			position[]={14004.414,24.248926,18604.867};
+			name="athira_spawn_27";
+			type="Empty";
+			angle=67.493095;
+			id=224;
+			atlOffset=0.17800522;
+		};
+		class Item156
+		{
+			dataType="Marker";
+			position[]={14032.771,27.625237,18691.072};
+			name="athira_spawn_28";
+			type="Empty";
+			angle=255.89767;
+			id=225;
+			atlOffset=0.10192871;
+		};
+		class Item157
+		{
+			dataType="Marker";
+			position[]={14092.581,26.628262,18724.584};
+			name="athira_spawn_29";
+			type="Empty";
+			angle=236.63902;
+			id=226;
+			atlOffset=0.10126305;
+		};
+		class Item158
+		{
+			dataType="Marker";
+			position[]={14229.525,30.205742,18738.727};
+			name="athira_spawn_30";
+			type="Empty";
+			angle=187.06708;
+			id=227;
+			atlOffset=0.13191986;
+		};
+		class Item159
+		{
+			dataType="Marker";
+			position[]={14332.55,16.666883,18018.557};
+			name="athira_spawn_31";
+			type="Empty";
+			angle=53.051079;
+			id=228;
+			atlOffset=0.097263336;
+		};
+		class Item160
+		{
+			dataType="Marker";
+			position[]={14316.247,16.112574,17629.396};
+			name="athira_spawn_32";
+			type="Empty";
+			angle=223.48601;
+			id=229;
+			atlOffset=0.11259365;
+		};
+		class Item161
+		{
+			dataType="Marker";
+			position[]={14389.764,17.564678,17590.012};
+			name="athira_spawn_33";
+			type="Empty";
+			angle=65.70829;
+			id=230;
+			atlOffset=0.09854126;
+		};
+		class Item162
+		{
+			dataType="Marker";
+			position[]={14429.195,18.921019,17635.605};
+			name="athira_spawn_34";
+			type="Empty";
+			angle=318.638;
+			id=231;
+			atlOffset=0.1312561;
+		};
+		class Item163
+		{
+			dataType="Marker";
+			position[]={14400.902,17.147127,17704.012};
+			name="athira_spawn_35";
+			type="Empty";
+			angle=122.47762;
+			id=232;
+			atlOffset=0.1019249;
+		};
+		class Item164
+		{
+			dataType="Marker";
+			position[]={14422.454,17.21044,17764.033};
+			name="athira_spawn_36";
+			type="Empty";
+			angle=64.503738;
+			id=233;
+			atlOffset=0.11291122;
+		};
+		class Item165
+		{
+			dataType="Marker";
+			position[]={14528.217,22.993437,17632.66};
+			name="athira_spawn_37";
+			type="Empty";
+			angle=329.59024;
+			id=234;
+			atlOffset=0.092596054;
+		};
+		class Item166
+		{
+			dataType="Marker";
+			position[]={14532.167,25.241154,17530.48};
+			name="athira_spawn_38";
+			type="Empty";
+			angle=286.09842;
+			id=235;
+			atlOffset=0.086601257;
+		};
+		class Item167
+		{
+			dataType="Marker";
+			position[]={14597.367,25.358126,17575.023};
+			name="athira_spawn_39";
+			type="Empty";
+			angle=204.43602;
+			id=236;
+			atlOffset=0.073886871;
+		};
+		class Item168
+		{
+			dataType="Marker";
+			position[]={14583.231,23.946325,17679.748};
+			name="athira_spawn_40";
+			type="Empty";
+			angle=301.51111;
+			id=237;
+			atlOffset=0.13665199;
+		};
+		class Item169
+		{
+			dataType="Marker";
+			position[]={14839.604,19.583735,17629.672};
+			name="athira_spawn_41";
+			type="Empty";
+			angle=33.188866;
+			id=238;
+			atlOffset=0.11192703;
+		};
+		class Item170
+		{
+			dataType="Marker";
+			position[]={14939.154,19.159052,17608.092};
+			name="athira_spawn_42";
+			type="Empty";
+			angle=7.7532711;
+			id=239;
+			atlOffset=0.079933167;
+		};
+		class Item171
+		{
+			dataType="Marker";
+			position[]={14452.322,21.973394,17436.061};
+			name="athira_spawn_43";
+			type="Empty";
+			angle=90;
+			id=240;
+			atlOffset=0.11372948;
+		};
+		class Item172
+		{
+			dataType="Marker";
+			position[]={14371.369,19.680111,17416.08};
+			name="athira_spawn_44";
+			type="Empty";
+			angle=193.44633;
+			id=241;
+			atlOffset=0.067268372;
+		};
+		class Item173
+		{
+			dataType="Marker";
+			position[]={14504.609,22.880983,17573.441};
+			name="athira_spawn_45";
+			type="Empty";
+			angle=18.4305;
+			id=242;
+			atlOffset=0.12919617;
+		};
+		class Item174
+		{
+			dataType="Marker";
+			position[]={14481.945,21.79447,17626.691};
+			name="athira_spawn_46";
+			type="Empty";
+			angle=17.380487;
+			id=243;
+			atlOffset=0.13391876;
+		};
+		class Item175
+		{
+			dataType="Marker";
+			position[]={14523.104,21.109196,17700.377};
+			name="athira_spawn_47";
+			type="Empty";
+			angle=48.690922;
+			id=244;
+			atlOffset=0.11325836;
+		};
+		class Item176
+		{
+			dataType="Marker";
+			position[]={14693.443,22.578835,17847.396};
+			name="athira_spawn_48";
+			type="Empty";
+			angle=202.88506;
+			id=245;
+			atlOffset=0.10859299;
+		};
+		class Item177
+		{
+			dataType="Marker";
+			position[]={14589.412,22.275927,17892.369};
+			name="athira_spawn_49";
+			type="Empty";
+			angle=213.09962;
+			id=246;
+			atlOffset=0.091464996;
+		};
+		class Item178
+		{
+			dataType="Marker";
+			position[]={14493.52,20.945787,17931.486};
+			name="athira_spawn_50";
+			type="Empty";
+			angle=217.783;
+			id=247;
+			atlOffset=0.073934555;
+		};
+		class Item179
+		{
+			dataType="Marker";
+			position[]={14445.144,19.853857,17823.541};
+			name="athira_spawn_51";
+			type="Empty";
+			angle=242.68178;
+			id=248;
+			atlOffset=0.1499157;
+		};
+		class Item180
+		{
+			dataType="Marker";
+			position[]={14300.926,15.680646,18055.385};
+			name="athira_spawn_52";
+			type="Empty";
+			angle=330.0773;
+			id=249;
+			atlOffset=0.057939529;
+		};
+		class Item181
+		{
+			dataType="Marker";
+			position[]={14385.51,17.605064,18248.367};
+			name="athira_spawn_53";
+			type="Empty";
+			angle=337.75583;
+			id=250;
+			atlOffset=0.12991905;
+		};
+		class Item182
+		{
+			dataType="Marker";
+			position[]={14689.645,31.121458,18081.961};
+			name="athira_spawn_54";
+			type="Empty";
+			angle=196.62213;
+			id=251;
+			atlOffset=0.095264435;
+		};
+		class Item183
+		{
+			dataType="Marker";
+			position[]={14162.846,21.362217,18491.455};
+			name="athira_spawn_55";
+			type="Empty";
+			angle=313.01401;
+			id=252;
+			atlOffset=0.13444519;
+		};
+		class Item184
+		{
+			dataType="Marker";
+			position[]={14193.73,22.994223,18532.264};
+			name="athira_spawn_56";
+			type="Empty";
+			angle=310.37054;
+			id=253;
+			atlOffset=0.10533333;
+		};
+		class Item185
+		{
+			dataType="Marker";
+			position[]={14112.038,23.460812,18552.547};
+			name="athira_spawn_57";
+			type="Empty";
+			angle=246.98099;
+			id=254;
+			atlOffset=0.14191818;
+		};
+		class Item186
+		{
+			dataType="Marker";
+			position[]={14076.41,24.344551,18571.977};
+			name="athira_spawn_58";
+			type="Empty";
+			angle=307.548;
+			id=255;
+			atlOffset=0.11926079;
+		};
+		class Item187
+		{
+			dataType="Marker";
+			position[]={13652.868,19.227417,18668.547};
+			name="athira_spawn_59";
+			type="Empty";
+			angle=189.33257;
+			id=256;
+			atlOffset=0.11525917;
+		};
+		class Item188
+		{
+			dataType="Marker";
+			position[]={13574.458,19.34506,18649.688};
+			name="athira_spawn_60";
+			type="Empty";
+			angle=25.343601;
+			id=257;
+			atlOffset=0.15458298;
+		};
+		class Item189
+		{
+			dataType="Marker";
+			position[]={25582.213,13.101563,20979.756};
+			name="sofia";
+			type="Empty";
+			id=259;
+			atlOffset=-0.85515118;
+		};
+		class Item190
+		{
+			dataType="Marker";
+			position[]={25544.592,16.905001,21132.16};
+			name="sofia_spawn_0";
+			type="Empty";
+			angle=28.251995;
+			id=260;
+			atlOffset=0.020166397;
+		};
+		class Item191
+		{
+			dataType="Marker";
+			position[]={25447.168,17.779762,21159.012};
+			name="sofia_spawn_1";
+			type="Empty";
+			angle=147.98744;
+			id=261;
+			atlOffset=0.018354416;
+		};
+		class Item192
+		{
+			dataType="Marker";
+			position[]={25367.705,27.67054,21500.146};
+			name="sofia_spawn_2";
+			type="Empty";
+			angle=61.953693;
+			id=262;
+			atlOffset=0.0075016022;
+		};
+		class Item193
+		{
+			dataType="Marker";
+			position[]={25441.146,25.611694,21501.357};
+			name="sofia_spawn_3";
+			type="Empty";
+			angle=127.60913;
+			id=263;
+			atlOffset=0.034828186;
+		};
+		class Item194
+		{
+			dataType="Marker";
+			position[]={25485.17,22.10006,21405.15};
+			name="sofia_spawn_4";
+			type="Empty";
+			angle=224.46613;
+			id=264;
+			atlOffset=0.02816391;
+		};
+		class Item195
+		{
+			dataType="Marker";
+			position[]={25557.719,22.111715,21406.625};
+			name="sofia_spawn_5";
+			type="Empty";
+			angle=131.53058;
+			id=265;
+			atlOffset=0.028779984;
+		};
+		class Item196
+		{
+			dataType="Marker";
+			position[]={25552.795,21.261578,21380.65};
+			name="sofia_spawn_6";
+			type="Empty";
+			angle=309.88437;
+			id=266;
+			atlOffset=0.020191193;
+		};
+		class Item197
+		{
+			dataType="Marker";
+			position[]={25208.627,26.05143,21308.785};
+			name="sofia_spawn_7";
+			type="Empty";
+			angle=146.30989;
+			id=267;
+			atlOffset=0.026943207;
+		};
+		class Item198
+		{
+			dataType="Marker";
+			position[]={25462.213,19.243107,21299.172};
+			name="sofia_spawn_8";
+			type="Empty";
+			angle=125.57077;
+			id=268;
+			atlOffset=0.015117645;
+		};
+		class Item199
+		{
+			dataType="Marker";
+			position[]={25522.498,19.022505,21286.938};
+			name="sofia_spawn_9";
+			type="Empty";
+			angle=330.37729;
+			id=269;
+			atlOffset=0.03216362;
+		};
+		class Item200
+		{
+			dataType="Marker";
+			position[]={25495.148,20.023296,21337.926};
+			name="sofia_spawn_10";
+			type="Empty";
+			angle=56.183064;
+			id=270;
+			atlOffset=0.044826508;
+		};
+		class Item201
+		{
+			dataType="Marker";
+			position[]={25682.088,14.127906,21037.223};
+			name="sofia_spawn_11";
+			type="Empty";
+			angle=326.96982;
+			id=271;
+			atlOffset=0.033935547;
+		};
+		class Item202
+		{
+			dataType="Marker";
+			position[]={25633.496,14.91459,21082.33};
+			name="sofia_spawn_12";
+			type="Empty";
+			angle=236.43445;
+			id=272;
+			atlOffset=0.024202347;
+		};
+		class Item203
+		{
+			dataType="Marker";
+			position[]={25780.926,15.22896,21130.568};
+			name="sofia_spawn_13";
+			type="Empty";
+			angle=167.09831;
+			id=273;
+			atlOffset=0.061489105;
+		};
+		class Item204
+		{
+			dataType="Marker";
+			position[]={26114.637,12.975474,20741.959};
+			name="sofia_spawn_14";
+			type="Empty";
+			angle=233.79117;
+			id=274;
+			atlOffset=0.018819809;
+		};
+		class Item205
+		{
+			dataType="Marker";
+			position[]={25877.477,10.347022,20805.891};
+			name="sofia_spawn_15";
+			type="Empty";
+			angle=336.12131;
+			id=275;
+			atlOffset=-0.17111969;
+		};
+		class Item206
+		{
+			dataType="Marker";
+			position[]={25849.197,10.751234,20941.361};
+			name="sofia_spawn_16";
+			type="Empty";
+			angle=353.6973;
+			id=276;
+			atlOffset=-0.05314827;
+		};
+		class Item207
+		{
+			dataType="Marker";
+			position[]={25605.857,8.8751173,20395.752};
+			name="sofia_spawn_17";
+			type="Empty";
+			angle=338.46295;
+			id=277;
+			atlOffset=-0.050483704;
+		};
+		class Item208
+		{
+			dataType="Marker";
+			position[]={25368.273,9.6058617,20320.176};
+			name="sofia_spawn_18";
+			type="Empty";
+			angle=144.52086;
+			id=278;
+			atlOffset=0.018161774;
+		};
+		class Item209
+		{
+			dataType="Marker";
+			position[]={25402.902,9.5372829,20365.07};
+			name="sofia_spawn_19";
+			type="Empty";
+			angle=354.99509;
+			id=279;
+			atlOffset=0.0154953;
+		};
+		class Item210
+		{
+			dataType="Marker";
+			position[]={25265.801,11.794083,20619.629};
+			name="sofia_spawn_20";
+			type="Empty";
+			angle=341.93082;
+			id=280;
+			atlOffset=-0.05048275;
+		};
+		class Item211
+		{
+			dataType="Marker";
+			position[]={25221.121,11.947706,20707.133};
+			name="sofia_spawn_21";
+			type="Empty";
+			angle=329.65311;
+			id=281;
+			atlOffset=-0.069852829;
+		};
+		class Item212
+		{
+			dataType="Marker";
+			position[]={25193.305,13.790098,20882.449};
+			name="sofia_spawn_22";
+			type="Empty";
+			angle=339.64017;
+			id=282;
+			atlOffset=0.11880875;
+		};
+		class Item213
+		{
+			dataType="Marker";
+			position[]={24882.359,20.542295,20842.07};
+			name="sofia_spawn_23";
+			type="Empty";
+			angle=155.23624;
+			id=283;
+			atlOffset=0.018167496;
+		};
+		class Item214
+		{
+			dataType="Marker";
+			position[]={24842.24,19.761206,20960.066};
+			name="sofia_spawn_24";
+			type="Empty";
+			angle=71.95137;
+			id=284;
+			atlOffset=0.046890259;
+		};
+		class Item215
+		{
+			dataType="Marker";
+			position[]={24962.73,16.579958,20969.725};
+			name="sofia_spawn_25";
+			type="Empty";
+			angle=74.843887;
+			id=285;
+			atlOffset=0.017990112;
+		};
+		class Item216
+		{
+			dataType="Marker";
+			position[]={24998.223,19.936195,20891.361};
+			name="sofia_spawn_26";
+			type="Empty";
+			angle=126.95006;
+			id=286;
+			atlOffset=0.020830154;
+		};
+		class Item217
+		{
+			dataType="Marker";
+			position[]={25062.9,18.420696,20895.754};
+			name="sofia_spawn_27";
+			type="Empty";
+			angle=62.218845;
+			id=287;
+			atlOffset=0.011501312;
+		};
+		class Item218
+		{
+			dataType="Marker";
+			position[]={25562.242,19.373861,21303.736};
+			name="sofia_spawn_28";
+			type="Empty";
+			angle=167.52721;
+			id=288;
+			atlOffset=0.047492981;
+		};
+		class Item219
+		{
+			dataType="Marker";
+			position[]={25615.313,19.515133,21305.83};
+			name="sofia_spawn_29";
+			type="Empty";
+			angle=214.55223;
+			id=289;
+			atlOffset=0.036830902;
+		};
+		class Item220
+		{
+			dataType="Marker";
+			position[]={25591.438,21.336542,21372.352};
+			name="sofia_spawn_30";
+			type="Empty";
+			angle=40.051109;
+			id=290;
+			atlOffset=0.033494949;
+		};
+		class Item221
+		{
+			dataType="Marker";
+			position[]={25662.105,20.821968,21355.342};
+			name="sofia_spawn_31";
+			type="Empty";
+			angle=317.23245;
+			id=291;
+			atlOffset=0.03736496;
+		};
+		class Item222
+		{
+			dataType="Marker";
+			position[]={25652.682,18.494528,21265.184};
+			name="sofia_spawn_32";
+			type="Empty";
+			angle=215.83565;
+			id=292;
+			atlOffset=0.042829514;
+		};
+		class Item223
+		{
+			dataType="Marker";
+			position[]={25717.803,20.645763,21347.293};
+			name="sofia_spawn_33";
+			type="Empty";
+			angle=142.12498;
+			id=293;
+		};
+		class Item224
+		{
+			dataType="Marker";
+			position[]={25761.926,18.549654,21289.119};
+			name="sofia_spawn_34";
+			type="Empty";
+			angle=223.80733;
+			id=294;
+			atlOffset=0.042827606;
+		};
+		class Item225
+		{
+			dataType="Marker";
+			position[]={25796.125,19.894051,21348.699};
+			name="sofia_spawn_35";
+			type="Empty";
+			angle=48.746223;
+			id=295;
+			atlOffset=0.029500961;
+		};
+		class Item226
+		{
+			dataType="Marker";
+			position[]={25843.539,19.576395,21383.619};
+			name="sofia_spawn_36";
+			type="Empty";
+			angle=317.00616;
+			id=296;
+		};
+		class Item227
+		{
+			dataType="Marker";
+			position[]={25797.961,21.224987,21419.9};
+			name="sofia_spawn_37";
+			type="Empty";
+			angle=319.83426;
+			id=297;
+			atlOffset=0.04107666;
+		};
+		class Item228
+		{
+			dataType="Marker";
+			position[]={25715.451,20.843771,21406.723};
+			name="sofia_spawn_38";
+			type="Empty";
+			angle=311.24576;
+			id=298;
+			atlOffset=0.025499344;
+		};
+		class Item229
+		{
+			dataType="Marker";
+			position[]={25772.914,30.577082,21746.848};
+			name="sofia_spawn_39";
+			type="Empty";
+			angle=127.74525;
+			id=299;
+			atlOffset=0.10205269;
+		};
+		class Item230
+		{
+			dataType="Marker";
+			position[]={25789.529,22.484215,21496.895};
+			name="sofia_spawn_40";
+			type="Empty";
+			angle=226.35806;
+			id=300;
+			atlOffset=0.027498245;
+		};
+		class Item231
+		{
+			dataType="Marker";
+			position[]={25710.607,22.13604,21525.957};
+			name="sofia_spawn_41";
+			type="Empty";
+			angle=320.4696;
+			id=301;
+			atlOffset=0.044857025;
+		};
+		class Item232
+		{
+			dataType="Marker";
+			position[]={25703.451,24.764187,21611.852};
+			name="sofia_spawn_42";
+			type="Empty";
+			angle=157.64639;
+			id=302;
+			atlOffset=0.039493561;
+		};
+		class Item233
+		{
+			dataType="Marker";
+			position[]={25696.238,21.259058,21495.154};
+			name="sofia_spawn_43";
+			type="Empty";
+			angle=102.81302;
+			id=303;
+			atlOffset=0.030164719;
+		};
+		class Item234
+		{
+			dataType="Marker";
+			position[]={25753.502,20.950661,21376.379};
+			name="sofia_spawn_44";
+			type="Empty";
+			angle=312.99692;
+			id=304;
+			atlOffset=0.021190643;
+		};
+		class Item235
+		{
+			dataType="Marker";
+			position[]={25480.748,10.949918,20516.77};
+			name="sofia_spawn_45";
+			type="Empty";
+			angle=312.34415;
+			id=305;
+			atlOffset=0.068154335;
+		};
+		class Item236
+		{
+			dataType="Marker";
+			position[]={26038.059,8.0574408,20585.057};
+			name="sofia_spawn_46";
+			type="Empty";
+			angle=314.34457;
+			id=306;
+			atlOffset=-0.03187561;
+		};
+		class Item237
+		{
+			dataType="Marker";
+			position[]={25964.381,9.2744637,20776.432};
+			name="sofia_spawn_47";
+			type="Empty";
+			angle=259.46353;
+			id=307;
+			atlOffset=-0.023702621;
+		};
+		class Item238
+		{
+			dataType="Marker";
+			position[]={26094.871,11.363284,20923.857};
+			name="sofia_spawn_48";
+			type="Empty";
+			angle=211.17091;
+			id=308;
+			atlOffset=-0.060480118;
+		};
+		class Item239
+		{
+			dataType="Marker";
+			position[]={26235.887,14.037896,21132.271};
+			name="sofia_spawn_49";
+			type="Empty";
+			angle=205.40414;
+			id=309;
+			atlOffset=0.16687393;
+		};
+		class Item240
+		{
+			dataType="Marker";
+			position[]={26137.148,20.567545,21276.113};
+			name="sofia_spawn_50";
+			type="Empty";
+			angle=267.48087;
+			id=310;
+			atlOffset=0.022624969;
+		};
+		class Item241
+		{
+			dataType="Marker";
+			position[]={25948.184,17.123703,21373.211};
+			name="sofia_spawn_51";
+			type="Empty";
+			angle=273.31793;
+			id=311;
+			atlOffset=0.022830963;
+		};
+		class Item242
+		{
+			dataType="Marker";
+			position[]={25825.455,3.8965721,20453.994};
+			name="sofia_spawn_52";
+			type="Empty";
+			angle=322.90869;
+			id=312;
+		};
+		class Item243
+		{
+			dataType="Marker";
+			position[]={25741.928,10.351626,20820.26};
+			name="sofia_spawn_53";
+			type="Empty";
+			angle=340.77188;
+			id=313;
+			atlOffset=0.0015678406;
+		};
+		class Item244
+		{
+			dataType="Marker";
+			position[]={25506.805,12.003984,20943.172};
+			name="sofia_spawn_54";
+			type="Empty";
+			angle=337.54755;
+			id=314;
+			atlOffset=0.026831627;
+		};
+		class Item245
+		{
+			dataType="Marker";
+			position[]={25768.619,21.31126,21444.693};
+			name="sofia_spawn_55";
+			type="Empty";
+			angle=312.00894;
+			id=316;
+			atlOffset=0.040201187;
+		};
+		class Item246
+		{
+			dataType="Marker";
+			position[]={25639.342,24.697428,21437.238};
+			name="sofia_spawn_56";
+			type="Empty";
+			angle=57.50581;
+			id=318;
+			atlOffset=0.00047874451;
+		};
+		class Item247
+		{
+			dataType="Marker";
+			position[]={25344.088,24.55759,21428.84};
+			name="sofia_spawn_57";
+			type="Empty";
+			angle=112.07391;
+			id=319;
+			atlOffset=0.14613533;
+		};
+		class Item248
+		{
+			dataType="Marker";
+			position[]={25608.854,17.859907,21237.203};
+			name="sofia_spawn_58";
+			type="Empty";
+			angle=116.22253;
+			id=320;
+			atlOffset=0.030162811;
+		};
+		class Item249
+		{
+			dataType="Marker";
+			position[]={25709.789,18.763117,21284.758};
+			name="sofia_spawn_59";
+			type="Empty";
+			angle=216.86322;
+			id=321;
+			atlOffset=0.021680832;
+		};
+		class Item250
+		{
+			dataType="Marker";
+			position[]={24724.889,23.728659,21077.072};
+			name="sofia_spawn_60";
+			type="Empty";
+			angle=157.07199;
+			id=322;
+			atlOffset=0.027229309;
+		};
+	};
+};

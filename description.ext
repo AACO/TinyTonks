@@ -1,0 +1,24 @@
+onLoadName = "Tiny Tonks";
+onLoadMission = "They're just too cute";
+author = "AACO";
+loadScreen = "bourbonwarfare.jpg";
+
+respawnButton = 1;
+respawnDelay = 5;
+
+#include "CfgFunctions.hpp"
+#include "Params.hpp"
+
+// hack to move map to player, no clue if it'll work for jips
+class Extended_DisplayLoad_EventHandlers {
+    class RscDiary {
+        TinyTonks = "_this spawn { waitUntil { player == player && {!alive player || vehicle player != player}}; ((_this select 0) displayCtrl 51) ctrlMapAnimAdd [0, 0.05, getPosWorld player]; ctrlMapAnimCommit ((_this select 0) displayCtrl 51);};";
+    };
+};
+
+class CfgDebriefingSections {
+    class tt_killTracker {
+        title = "Tiny Tonks Killed Events";
+        variable = "acex_killTracker_outputText";
+    };
+};
